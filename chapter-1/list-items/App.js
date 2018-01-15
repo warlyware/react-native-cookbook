@@ -13,12 +13,12 @@ const basketIcon = require('./images/basket.png');
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    var ds = new ListView.DataSource({
+    const dataSource = new ListView.DataSource({
       rowHasChanged: (r1, r2) => r1 !== r2
     });
 
     this.state = {
-      dataSource: ds.cloneWithRows(data),
+      dataSource: dataSource.cloneWithRows(data),
     };
   }
 
