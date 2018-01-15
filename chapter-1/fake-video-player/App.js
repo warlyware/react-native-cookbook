@@ -6,12 +6,16 @@ const volumeIcon = require('./images/sound.png');
 const hdIcon = require('./images/hd-sign.png');
 const fullScreenIcon = require('./images/full-screen.png');
 const flower = require('./images/flower.jpg');
+const remoteImage = {
+  uri: `https://farm5.staticflickr.com/4702/24825836327_bb2e0fc39b_b.jpg`
+};
+
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.appContainer}>
-        <ImageBackground source={flower} style={styles.videoContainer} resizeMode="contain">
+        <ImageBackground source={remoteImage} style={styles.videoContainer} resizeMode="contain">
           <View style={styles.controlsContainer}>
             <Image source={volumeIcon} style={styles.icon} />
             <View style={styles.progress}>
