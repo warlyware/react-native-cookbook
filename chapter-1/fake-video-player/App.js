@@ -17,6 +17,7 @@ export default class App extends React.Component {
       <View style={styles.appContainer}>
         <ImageBackground source={remoteImage} style={styles.videoContainer} resizeMode="contain">
           <View style={styles.controlsContainer}>
+            <Image source={playIcon} style={styles.icon} />
             <Image source={volumeIcon} style={styles.icon} />
             <View style={styles.progress}>
               <View style={styles.progressBar} />
