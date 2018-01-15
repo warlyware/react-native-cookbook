@@ -14,21 +14,21 @@ export default class App extends React.Component {
     liked: false,
   };
 
-  onClick = () => {
+  handleClick = () => {
     // We will define the content on step 6
   }
 
   render() {
     return (
-     <View style={styles.container}>
+      <View style={styles.container}>
         <TouchableHighlight
           style={styles.btn}
           underlayColor="#fefefe"
         >
           <Image
-      source={heartIcon}
-      style={styles.icon}
-        />
+            source={heartIcon}
+            style={styles.icon}
+          />
         </TouchableHighlight>
         <Text style={styles.text}>Do you like this app?</Text>
       </View>
