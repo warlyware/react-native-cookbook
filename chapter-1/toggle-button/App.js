@@ -38,9 +38,22 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    marginTop: 50,
     alignItems: 'center',
-    justifyContent: 'center',
+  },
+  btn: {
+    borderRadius: 5,
+    padding: 10,
+  },
+  icon: {
+    width: 180,
+    height: 180,
+    tintColor: '#f1f1f1',
+  },
+  liked: {
+    tintColor: '#e74c3c',
+  },
+  text: {
+    marginTop: 20,
   },
 });
