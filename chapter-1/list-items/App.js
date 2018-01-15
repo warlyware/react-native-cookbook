@@ -1,5 +1,14 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  View,
+  ListView,
+  Image,
+  Text,
+} from 'react-native';
+import data from './sales.json';
+
+const basketIcon = require('./images/basket.png');
 
 export default class App extends React.Component {
   render() {
