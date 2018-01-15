@@ -7,17 +7,39 @@ import {
 } from 'react-native';
 import { TabViewAnimated, TabBar, SceneMap } from 'react-native-tab-view';
 
-const homeIcon = require('./images/home.png');
-const favIcon = require('./images/star.png');
-const blogIcon = require('./images/blog.png');
-const profileIcon = require('./images/user.png');
+const FirstRoute = () => <View style={[ styles.container, { backgroundColor: '#C586BD' } ]} />;
+const SecondRoute = () => <View style={[ styles.container, { backgroundColor: '#4AC9B0' } ]} />;
+const ThirdRoute = () => <View style={[ styles.container, { backgroundColor: '#1cb5ad' } ]} />;
 
 export default class App extends React.Component {
+  state = {
+    index: 0,
+    routes: [
+      { key: 'first', title: 'First' },
+      { key: 'second', title: 'Second' },
+      { key: 'third', title: 'Third' },
+    ],
+  };
+
+  handleIndexChange = index => this.setState({ index });
+
+  renderFooter = props => <TabBar {...props} />;
+
+  renderScene = SceneMap({
+    first: FirstRoute,
+    second: SecondRoute,
+    third: ThirdRoute,
+  });
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
+      <TabViewAnimated
+        style={styles.container}
+        navigationState={this.state}
+        renderScene={this.renderScene}
+        renderFooter={this.renderFooter}
+        onIndexChange={this.handleIndexChange}
+      />
     );
   }
 }
@@ -25,8 +47,5 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
