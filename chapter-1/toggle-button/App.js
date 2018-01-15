@@ -10,10 +10,27 @@ import {
 const heartIcon = require('./images/heart.png');
 
 export default class App extends React.Component {
+  state = {
+    liked: false,
+  };
+
+  onClick = () => {
+    // We will define the content on step 6
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+     <View style={styles.container}>
+        <TouchableHighlight
+          style={styles.btn}
+          underlayColor="#fefefe"
+        >
+          <Image
+      source={heartIcon}
+      style={styles.icon}
+        />
+        </TouchableHighlight>
+        <Text style={styles.text}>Do you like this app?</Text>
       </View>
     );
   }
