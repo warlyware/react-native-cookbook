@@ -14,20 +14,25 @@ export default class App extends React.Component {
     liked: false,
   };
 
-  handleClick = () => {
-    // We will define the content on step 6
+  handleButtonPress = () => {
+    this.setState({
+      liked: !this.state.liked,
+    });
   }
 
   render() {
+    const likedStyles = this.state.liked ? styles.liked : undefined;
+
     return (
       <View style={styles.container}>
         <TouchableHighlight
-          style={styles.btn}
+          onPress={this.handleButtonPress}
+          style={styles.button}
           underlayColor="#fefefe"
         >
           <Image
             source={heartIcon}
-            style={styles.icon}
+            style={[styles.icon, likedStyles]}
           />
         </TouchableHighlight>
         <Text style={styles.text}>Do you like this app?</Text>
@@ -41,7 +46,7 @@ const styles = StyleSheet.create({
     marginTop: 50,
     alignItems: 'center',
   },
-  btn: {
+  button: {
     borderRadius: 5,
     padding: 10,
   },
