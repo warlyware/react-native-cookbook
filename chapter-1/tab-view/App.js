@@ -1,5 +1,16 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  View,
+  Image,
+  Text
+} from 'react-native';
+import { TabViewAnimated, TabBar, SceneMap } from 'react-native-tab-view';
+
+const homeIcon = require('./images/home.png');
+const favIcon = require('./images/star.png');
+const blogIcon = require('./images/blog.png');
+const profileIcon = require('./images/user.png');
 
 export default class App extends React.Component {
   render() {
