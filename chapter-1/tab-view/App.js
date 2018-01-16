@@ -9,7 +9,7 @@ import { TabViewAnimated, TabBar, SceneMap } from 'react-native-tab-view';
 
 const FirstRoute = () => <View style={[ styles.container, { backgroundColor: '#C586BD' } ]} />;
 const SecondRoute = () => <View style={[ styles.container, { backgroundColor: '#4AC9B0' } ]} />;
-const ThirdRoute = () => <View style={[ styles.container, { backgroundColor: '#1cb5ad' } ]} />;
+const ThirdRoute = () => <View style={[ styles.container, { backgroundColor: '#1CB5AD' } ]} />;
 
 export default class App extends React.Component {
   state = {
@@ -20,10 +20,6 @@ export default class App extends React.Component {
       { key: 'third', title: 'Third' },
     ],
   };
-
-  handleIndexChange = index => this.setState({ index });
-
-  renderFooter = props => <TabBar {...props} />;
 
   renderScene = SceneMap({
     first: FirstRoute,
@@ -37,8 +33,8 @@ export default class App extends React.Component {
         style={styles.container}
         navigationState={this.state}
         renderScene={this.renderScene}
-        renderFooter={this.renderFooter}
-        onIndexChange={this.handleIndexChange}
+        renderFooter={props => <TabBar {...props} />}
+        onIndexChange={index => this.setState({ index })}
       />
     );
   }
