@@ -6,13 +6,17 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.topSection}>
-
+          <Text style={styles.topSectionText}>
+            4  N A M E S
+          </Text>
         </View>
         <View style={styles.middleSection}>
-
+          <Text style={styles.middleSectionText}>I P S U M</Text>
         </View>
         <View style={styles.bottomSection}>
-
+          <Text style={styles.bottomSectionText}>
+            C O M
+          </Text>
         </View>
       </View>
     );
@@ -24,18 +28,32 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   topSection: {
-    flex: 0,
     flexGrow: 3,
-    backgroundColor: '#f00'
+    backgroundColor: '#5BC2C1',
+    alignItems: 'center',
+  },
+  topSectionText: {
+    fontWeight: 'bold',
+    marginTop: 50
   },
   middleSection: {
-    flex: 0,
     flexGrow: 1,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  middleSectionText: {
+    fontSize: 30,
+    fontWeight: 'bold'
   },
   bottomSection: {
-    flex: 0,
     flexGrow: 3,
-    backgroundColor: 'green'
-  }
+    backgroundColor: '#FD909E',
+    alignItems: 'center',
+    justifyContent: 'flex-end'
+  },
+  bottomSectionText: {
+    fontWeight: 'bold',
+    marginBottom: 30
+  },
 });
