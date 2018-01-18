@@ -11,7 +11,9 @@ export default class App extends React.Component {
           </Text>
         </View>
         <View style={styles.middleSection}>
-          <Text style={styles.middleSectionText}>I P S U M</Text>
+          <Text style={styles.middleSectionText}>
+            I P S U M
+          </Text>
         </View>
         <View style={styles.bottomSection}>
           <Text style={styles.bottomSectionText}>
