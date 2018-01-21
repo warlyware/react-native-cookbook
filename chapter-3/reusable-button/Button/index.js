@@ -1,10 +1,18 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import Base, { Default, Danger, Info, Success } from './styles';
+
+import {
+  Base,
+  Default,
+  Danger,
+  Info,
+  Success
+} from './styles';
 
 const { array, string, object, bool, func, any } = PropTypes;
 
@@ -54,8 +62,7 @@ export default class Button extends Component {
           rounded ? Base.rounded : null ,
           style,
         ]}
-        onPress={onPress}
-      >
+        onPress={onPress}>
         <Text style={[Base.label, theme.label]}>{children}</Text>
       </TouchableOpacity>
     );
