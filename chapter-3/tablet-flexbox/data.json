@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "title": "Creating custom components",
+      "img": "01.jpg",
+      "content": "In this post we will learn how...",
+      "author": "Crysfel Villa"
+    }
+  ]
+}
