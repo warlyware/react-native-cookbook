@@ -5,12 +5,17 @@ import { Font } from 'expo';
 
 export default class App extends React.Component {
   state = {
-    fontLoaded: false,
+    fontLoaded: false
   };
 
   async componentDidMount() {
     await Font.loadAsync({
       'josefin-sans-regular': require('./assets/fonts/JosefinSans-Regular.ttf'),
+      'josefin-sans-bold': require('./assets/fonts/JosefinSans-Bold.ttf'),
+      'josefin-sans-italic': require('./assets/fonts/JosefinSans-Italic.ttf'),
+      'raleway-regular': require('./assets/fonts/Raleway-Regular.ttf'),
+      'raleway-bold': require('./assets/fonts/Raleway-Bold.ttf'),
+      'raleway-italic': require('./assets/fonts/Raleway-Italic.ttf'),
     });
 
     this.setState({ fontLoaded: true });
@@ -19,13 +24,30 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-          {
-            this.state.fontLoaded ? (
-              <Text style={styles.josefineSans}>
+        {
+          this.state.fontLoaded ? (
+            <View style={styles.container}>
+              <Text style={[styles.josefinSans, styles.textFormatting]}>
                 Hello, Josefin Sans!
               </Text>
-            ) : null
-          }
+              <Text style={[styles.josefinSansBold, styles.textFormatting]}>
+                Hello, Josefin Sans!
+              </Text>
+              <Text style={[styles.josefinSansItalic, styles.textFormatting]}>
+                Hello, Josefin Sans!
+              </Text>
+              <Text style={[styles.raleway, styles.textFormatting]}>
+                Hello, Raleway!
+              </Text>
+              <Text style={[styles.ralewayBold, styles.textFormatting]}>
+                Hello, Raleway!
+              </Text>
+              <Text style={[styles.ralewayItalic, styles.textFormatting]}>
+                Hello, Raleway!
+              </Text>
+            </View>
+          ) : null
+        }
       </View>
     );
   }
@@ -38,8 +60,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  josefineSans: {
+  josefinSans: {
+    fontFamily: 'josefin-sans-regular',
+  },
+  josefinSansBold: {
+    fontFamily: 'josefin-sans-bold',
+  },
+  josefinSansItalic: {
+    fontFamily: 'josefin-sans-italic',
+  },
+  raleway: {
+    fontFamily: 'raleway-regular',
+  },
+  ralewayBold: {
+    fontFamily: 'josefin-sans-bold',
+  },
+  ralewayItalic: {
+    fontFamily: 'josefin-sans-italic',
+  },
+  textFormatting: {
     fontSize: 40,
-    fontFamily: 'josefin-sans-regular'
+    paddingBottom: 20
   }
 });
