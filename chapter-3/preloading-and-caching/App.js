@@ -1,11 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { Asset } from 'expo';
+
+const localImage = require('./assets/images/magic.gif');
 
 export default class App extends React.Component {
+  state = {
+    assetsLoaded: false
+  }
+
+  componentWillMount() {
+    Asset.fromModule(localImage).downloadAsync();
+    this.setState({ assetsLoaded: true });
+  }
+
   render() {
+    if (!this.state.assetsLoaded) {
+      return(
+        <View style={styles.container}></View>
+      )
+    }
+
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Image source={require('./assets/images/magic.gif')}/>
       </View>
     );
   }
