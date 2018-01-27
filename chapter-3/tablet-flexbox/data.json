@@ -1,10 +1,40 @@
 {
   "posts": [
     {
-      "title": "Creating custom components",
+      "title": "The Best Article Ever Written",
       "img": "01.jpg",
-      "content": "In this post we will learn how...",
-      "author": "Crysfel Villa"
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "author": "Bob Labla"
+    },
+    {
+      "title": "Making the Best of Things",
+      "img": "02.jpg",
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.",
+      "author": "Joe Shmo"
+    },
+    {
+      "title": "Why I'm Right and You're Wrong",
+      "img": "03.jpg",
+      "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+      "author": "Mister Magoo"
+    },
+    {
+      "title": "A Great Title for a Great Article",
+      "img": "04.jpg",
+      "content": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "author": "Jim Smith"
+    },
+    {
+      "title": "10 Things to Know About Nothing in Particular",
+      "img": "05.jpg",
+      "content": "Aenean malesuada sapien sit amet purus mattis sollicitudin. Nulla est diam, pulvinar sit amet est id, fermentum vehicula arcu. Nullam dignissim ac odio non cursus. Mauris tincidunt faucibus est. Morbi pretium eget velit non pretium. Curabitur quam ex, hendrerit vel pulvinar ac, tincidunt vel magna.",
+      "author": "Jon Snow"
+    },
+    {
+      "title": "Tips for Successfully Doing Stuff that is Super Important",
+      "img": "06.jpg",
+      "content": "Duis volutpat massa eu metus condimentum venenatis. Aenean posuere quam nunc, in tempor massa faucibus aliquet. Donec et tincidunt elit. Pellentesque volutpat commodo nisi. Vivamus justo nulla, condimentum ut mauris nec, tempus interdum risus. Aenean tincidunt massa quis ipsum sodales lacinia.",
+      "author": "Tee Rex"
     }
   ]
 }

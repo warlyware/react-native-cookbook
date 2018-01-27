@@ -31,5 +31,28 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  // Defined on step 13
+  container: {
+    flex: 1,
+  },
+  toolbar: {
+    backgroundColor: '#34495e',
+    padding: 10,
+    paddingTop: 20,
+  },
+  title: {
+    color: '#fff',
+    fontSize: 20,
+    textAlign: 'center',
+  },
+  list: {
+    backgroundColor: '#f0f3f4',
+    paddingTop: 5,
+    paddingBottom: 5,
+    flex: 1
+  },
+  content: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
 });
