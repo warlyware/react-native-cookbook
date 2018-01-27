@@ -1,11 +1,22 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
+
+import { Font } from 'expo';
 
 export default class App extends React.Component {
+
+  componentDidMount() {
+    Font.loadAsync({
+      'roboto-regular': require('./assets/fonts/Roboto-Regular.ttf'),
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text style={styles.roboto}>
+          Hello, Roboto!
+        </Text>
       </View>
     );
   }
@@ -18,4 +29,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  roboto: {
+    fontSize: 40,
+    fontFamily: 'roboto-regular'
+  }
 });
