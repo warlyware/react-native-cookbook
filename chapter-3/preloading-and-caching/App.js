@@ -1,29 +1,38 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { Asset } from 'expo';
+import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
+import { Asset, AppLoading } from 'expo';
 
 const localImage = require('./assets/images/magic.gif');
+const remoteImage = 'https://farm5.staticflickr.com/4746/39224828534_cba811ba9c_b.jpg';
 
 export default class App extends React.Component {
   state = {
     assetsLoaded: false
   }
 
-  componentWillMount() {
-    Asset.fromModule(localImage).downloadAsync();
-    this.setState({ assetsLoaded: true });
+  async loadAssets() {
+    await Image.prefetch(remoteImage);
+    await Asset.fromModule(localImage).downloadAsync();
   }
 
   render() {
     if (!this.state.assetsLoaded) {
       return(
-        <View style={styles.container}></View>
+        <AppLoading
+          startAsync={ this.loadAssets }
+          onFinish={() => this.setState({ assetsLoaded: true })}
+          onError={console.warn}
+        />
       )
     }
 
     return (
       <View style={styles.container}>
-        <Image source={require('./assets/images/magic.gif')}/>
+        <ImageBackground style={[styles.container, { width: '100%', height: '100%' }]}
+          source={{ uri: remoteImage }}
+        >
+          <Image source={localImage}/>
+        </ImageBackground>
       </View>
     );
   }
