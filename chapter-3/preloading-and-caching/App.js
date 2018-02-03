@@ -1,9 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
-import { Asset, AppLoading } from 'expo';
+import { Asset, AppLoading, FileSystem, Video } from 'expo';
 
 const localImage = require('./assets/images/magic.gif');
 const remoteImage = 'https://farm5.staticflickr.com/4746/39224828534_cba811ba9c_b.jpg';
+let cachedImage;
+let cachedVideo;
 
 export default class App extends React.Component {
   state = {
@@ -11,8 +13,12 @@ export default class App extends React.Component {
   }
 
   async loadAssets() {
-    await Image.prefetch(remoteImage);
     await Asset.fromModule(localImage).downloadAsync();
+    cachedImage = await FileSystem.downloadAsync(
+      remoteImage,
+      FileSystem.documentDirectory + 'image.jpg'
+    );
+    console.log(FileSystem.cacheDirectory);
   }
 
   render() {
@@ -29,7 +35,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <ImageBackground style={[styles.container, { width: '100%', height: '100%' }]}
-          source={{ uri: remoteImage }}
+          source={{ uri: cachedImage.uri }}
         >
           <Image source={localImage}/>
         </ImageBackground>
