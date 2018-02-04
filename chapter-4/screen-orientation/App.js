@@ -1,11 +1,42 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  Dimensions,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
 export default class App extends React.Component {
+  getDimensions() {
+    this.setState({
+      width: Dimensions.get('window').width,
+      height: Dimensions.get('window').height,
+    });
+  }
+
+  handleLayoutChange(e) {
+    this.getDimensions();
+  }
+
+  componentWillMount() {
+    this.getDimensions();
+  }
+
+  renderLayout() {
+    if (this.state.width > this.state.height) {
+      return <Text style={styles.text}>Landscape!</Text>;
+    } else {
+      return <Text style={styles.text}>Portrait!</Text>;
+    }
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+      <View
+        onLayout={() => this.handleLayoutChange}
+        style={styles.container}
+      >
+        {this.renderLayout()}
       </View>
     );
   }
@@ -14,8 +45,11 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF'
   },
-});
+  text: {
+    fontSize: 40,
+  }
+})
