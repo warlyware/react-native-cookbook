@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 
-class UserList extends Component {
+export default class UserList extends Component {
   constructor(props) {
     super(props);
     const dataSource = new ListView.DataSource({
@@ -53,5 +53,3 @@ class UserList extends Component {
     );
   }
 }
-
-export default UserList;

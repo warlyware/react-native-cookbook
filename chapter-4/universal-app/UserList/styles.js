@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   main: {
     flex: 1,
     backgroundColor: '#dde6e9',
@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
   toolbar: {
     backgroundColor: '#2989dd',
     color: '#fff',
+    paddingTop: 50,
     padding: 20,
     textAlign: 'center',
     fontSize: 20,
@@ -34,5 +35,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-export default styles;

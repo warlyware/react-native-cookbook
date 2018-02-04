@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
   toolbar: {
     backgroundColor: '#2989dd',
     color: '#fff',
+    paddingTop: 50,
     padding: 20,
     textAlign: 'center',
     fontSize: 20,

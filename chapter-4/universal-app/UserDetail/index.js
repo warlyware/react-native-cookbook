@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import {
   View,
   Text,
@@ -13,9 +13,5 @@ const UserList = ({ contact }) => (
     </Text>
   </View>
 );
-
-// UserList.propTypes = {
-//   contact: PropTypes.object,
-// };
 
 export default UserList;
