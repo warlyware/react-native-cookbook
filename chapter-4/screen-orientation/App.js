@@ -6,6 +6,8 @@ import {
   View
 } from 'react-native';
 
+import Menu from './Menu';
+
 export default class App extends React.Component {
   handleLayoutChange() {
     this.getOrientation();
@@ -17,7 +19,8 @@ export default class App extends React.Component {
 
   getOrientation() {
     const { width, height } = Dimensions.get('window');
-    const orientation = height > width ? 'Portrait' : 'Landscape';
+    let orientation = height > width ? 'Portrait' : 'Landscape';
+    console.log(orientation);
     this.setState({
       orientation
     });
@@ -26,12 +29,13 @@ export default class App extends React.Component {
   render() {
     return (
       <View
-        onLayout={() => this.handleLayoutChange}
+        onLayout={() => {this.handleLayoutChange()}}
         style={styles.container}
       >
-        <Text style={styles.text}>
-          {this.state.orientation}
-        </Text>
+        <Menu orientation={this.state.orientation} />
+        <View style={styles.main}>
+          <Text>Main Content</Text>
+        </View>
       </View>
     );
   }
@@ -40,11 +44,12 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
+  },
+  main: {
+    flex: 1,
+    backgroundColor: '#ecf0f1',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF'
-  },
-  text: {
-    fontSize: 40,
   }
 });
