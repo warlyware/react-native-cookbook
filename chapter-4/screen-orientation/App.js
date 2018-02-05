@@ -7,27 +7,20 @@ import {
 } from 'react-native';
 
 export default class App extends React.Component {
-  getDimensions() {
-    this.setState({
-      width: Dimensions.get('window').width,
-      height: Dimensions.get('window').height,
-    });
-  }
-
-  handleLayoutChange(e) {
-    this.getDimensions();
+  handleLayoutChange() {
+    this.getOrientation();
   }
 
   componentWillMount() {
-    this.getDimensions();
+    this.getOrientation();
   }
 
-  renderLayout() {
-    if (this.state.width > this.state.height) {
-      return <Text style={styles.text}>Landscape!</Text>;
-    } else {
-      return <Text style={styles.text}>Portrait!</Text>;
-    }
+  getOrientation() {
+    const { width, height } = Dimensions.get('window');
+    const orientation = height > width ? 'Portrait' : 'Landscape';
+    this.setState({
+      orientation
+    });
   }
 
   render() {
@@ -36,7 +29,9 @@ export default class App extends React.Component {
         onLayout={() => this.handleLayoutChange}
         style={styles.container}
       >
-        {this.renderLayout()}
+        <Text style={styles.text}>
+          {this.state.orientation}
+        </Text>
       </View>
     );
   }
@@ -52,4 +47,4 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 40,
   }
-})
+});
