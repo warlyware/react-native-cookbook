@@ -28,26 +28,25 @@ class HomeScreen extends Component {
         url: 'https://css-tricks.com/'
       },
       {
-        title: 'Codrops',
-        url: 'https://tympanus.net/codrops/'
+        title: 'Hacker News',
+        url: 'https://news.ycombinator.com/'
       }
      ],
   };
 
-  handleButtonPress(btn) {
-    console.log(this.props, url);
-    const { url, title } = btn;
+  handleButtonPress(button) {
+    const { url, title } = button;
     this.props.navigation.navigate('Browser', { url, title });
   }
 
-  renderButton = (btn, index) => {
+  renderButton = (button, index) => {
     return (
       <TouchableOpacity
         key={index}
-        onPress={() => this.handleButtonPress(btn)}
-        style={styles.btn}
+        onPress={() => this.handleButtonPress(button)}
+        style={styles.button}
       >
-        <Text style={styles.text}>{btn.title}</Text>
+        <Text style={styles.text}>{button.title}</Text>
       </TouchableOpacity>
     );
   }
@@ -55,7 +54,9 @@ class HomeScreen extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        {this.state.links.map(this.renderButton)}
+        <View style={styles.buttonList}>
+          {this.state.links.map(this.renderButton)}
+        </View>
       </SafeAreaView>
     );
   }
@@ -96,12 +97,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  heading: {
+  buttonList: {
+    flex: 1,
     justifyContent: 'center',
-    alignItems: 'flex-start',
-    fontSize: 30
   },
-  btn: {
+  button: {
     margin: 10,
     backgroundColor: '#c0392b',
     borderRadius: 3,
