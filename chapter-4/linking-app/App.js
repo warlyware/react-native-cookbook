@@ -1,9 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-
+import { StyleSheet, Text, View, TouchableOpacity, Platform } from 'react-native';
 import { Linking } from 'react-native';
 import { WebBrowser } from 'expo';
 
+const slackAppId = {
+  ios: 'id618783545',
+  android: 'com.Slack',
+}
 
 export default class App extends React.Component {
   state = {
@@ -41,11 +44,25 @@ export default class App extends React.Component {
     ]
   }
 
+  handleMissingApp() {
+    if (Platform.OS === 'ios') {
+      Linking.openURL(`https://itunes.apple.com/us/app/${slackAppId.ios}`);
+    } else {
+      Linking.openURL(
+        `https://play.google.com/store/apps/details?id=${slackAppId.android}`
+      );
+    }
+  }
+
   handleButtonPress(button) {
     if (button.type === 'internal link') {
       WebBrowser.openBrowserAsync(button.url);
     } else {
-      Linking.openURL(button.url);
+      Linking.openURL(button.url).catch(({ message }) => {
+        if (message.includes('slack://')) {
+          this.handleMissingApp();
+        }
+      });
     }
   }
 
