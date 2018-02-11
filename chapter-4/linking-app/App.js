@@ -1,11 +1,72 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+
+import { Linking } from 'react-native';
+import { WebBrowser } from 'expo';
+
 
 export default class App extends React.Component {
+  state = {
+    links: [
+      {
+        title: 'Call Support',
+        url: 'tel:+12025550170',
+        type: 'phone'
+      },
+      {
+        title: 'Email Support',
+        url: 'mailto:support@email.com',
+        type: 'email',
+      },
+      {
+        title: 'Text Support',
+        url: 'sms:+12025550170',
+        type: 'text message',
+      },
+      {
+        title: 'Join us on Slack',
+        url: 'slack://channel?team=T5KFMSASF&id=C5K142J57',
+        type: 'slack deep link',
+      },
+      {
+        title: 'Visit Site (internal)',
+        url: 'https://google.com',
+        type: 'internal link'
+      },
+      {
+        title: 'Visit Site (external)',
+        url: 'https://google.com',
+        type: 'external link'
+      }
+    ]
+  }
+
+  handleButtonPress(button) {
+    if (button.type === 'internal link') {
+      WebBrowser.openBrowserAsync(button.url);
+    } else {
+      Linking.openURL(button.url);
+    }
+  }
+
+  renderButton = (button, index) => {
+    return(
+      <TouchableOpacity
+        key={index}
+        onPress={() => this.handleButtonPress(button)}
+        style={styles.button}
+      >
+        <Text style={styles.text}>{button.title}</Text>
+      </TouchableOpacity>
+    );
+  }
+
   render() {
-    return (
+    return(
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <View style={styles.buttonList}>
+          {this.state.links.map(this.renderButton)}
+        </View>
       </View>
     );
   }
@@ -15,7 +76,23 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonList: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  button: {
+    margin: 10,
+    backgroundColor: '#c0392b',
+    borderRadius: 3,
+    padding: 10,
+    paddingRight: 30,
+    paddingLeft: 30,
+  },
+  text: {
+    color: '#fff',
+    textAlign: 'center',
   },
 });
