@@ -1,21 +1,38 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  Alert,
+  StyleSheet,
+  ScrollView,
+  SafeAreaView,
+  Text,
+  TextInput,
+} from 'react-native';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
+import UserForm from './UserForm';
+
+const MainApp = () => (
+  <SafeAreaView style={styles.main}>
+    <Text style={styles.toolbar}>Fitness App</Text>
+    <ScrollView style={styles.content}>
+      <UserForm />
+    </ScrollView>
+  </SafeAreaView>
+);
 
 const styles = StyleSheet.create({
-  container: {
+  main: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#ecf0f1',
+  },
+  toolbar: {
+    backgroundColor: '#1abc9c',
+    padding: 20,
+    color: '#fff',
+    fontSize: 20,
+  },
+  content: {
+    padding: 10,
   },
 });
+
+export default MainApp;
