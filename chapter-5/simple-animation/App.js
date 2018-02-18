@@ -12,7 +12,7 @@ const cloudImage = require('./assets/images/cloud.png');
 const imageHeight = 200;
 const imageWidth = 300;
 
-class MainApp extends Component {
+export default class MainApp extends Component {
   componentWillMount() {
     this.animatedValue = new Animated.Value();
   }
@@ -29,6 +29,7 @@ class MainApp extends Component {
         toValue: -imageWidth,
         duration: 6000,
         easing: Easing.linear,
+        useNativeDriver: true,
       }
     ).start(() => this.startAnimation());
   }
@@ -47,6 +48,7 @@ class MainApp extends Component {
     );
   }
 }
+
 const styles = StyleSheet.create({
   background: {
     flex: 1,
@@ -59,5 +61,3 @@ const styles = StyleSheet.create({
     width: imageWidth,
   },
 });
-
-export default MainApp;
