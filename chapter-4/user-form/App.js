@@ -10,7 +10,7 @@ import {
 
 import UserForm from './UserForm';
 
-const MainApp = () => (
+const App = () => (
   <SafeAreaView style={styles.main}>
     <Text style={styles.toolbar}>Fitness App</Text>
     <ScrollView style={styles.content}>
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainApp;
+export default App;

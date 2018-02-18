@@ -18,15 +18,13 @@ export default class UserForm extends Component {
   }
 
   renderTextfield(options) {
-    let { label, name, keyboard } = options;
-
     return (
       <TextInput
         style={styles.textfield}
-        onChangeText={(value) => this.setState({ name: value })}
-        placeholder={label}
-        value={this.state.name}
-        keyboardType={keyboard || 'default'}
+        onChangeText={(value) => this.setState({ [options.name]: value })}
+        placeholder={options.placeholder}
+        value={this.state[options.name]}
+        keyboardType={options.keyboard || 'default'}
       />
     );
   }
@@ -35,9 +33,9 @@ export default class UserForm extends Component {
     return (
       <TouchableOpacity
         onPress={this.handleButtonPress}
-        style={styles.btn}
+        style={styles.button}
       >
-        <Text style={styles.btnText}>Save</Text>
+        <Text style={styles.buttonText}>Save</Text>
       </TouchableOpacity>
     );
   }
@@ -48,9 +46,9 @@ export default class UserForm extends Component {
         <Text style={styles.instructions}>
           Please enter your contact information
         </Text>
-        {this.renderTextfield({ name: 'name', label: 'Your name' })}
-        {this.renderTextfield({ name: 'phone', label: 'Your phone number', keyboard: 'phone-pad' })}
-        {this.renderTextfield({ name: 'email', label: 'Your email address', keyboard: 'email-address'})}
+        {this.renderTextfield({ name: 'name', placeholder: 'Your name' })}
+        {this.renderTextfield({ name: 'phone', placeholder: 'Your phone number', keyboard: 'phone-pad' })}
+        {this.renderTextfield({ name: 'email', placeholder: 'Your email address', keyboard: 'email-address'})}
         {this.renderButton()}
       </View>
     );
@@ -74,13 +72,13 @@ const styles = StyleSheet.create({
     height: 40,
     marginBottom: 10,
   },
-  btn: {
+  button: {
     backgroundColor: '#34495e',
     borderRadius: 3,
     padding: 12,
     flex: 1,
   },
-  btnText: {
+  buttonText: {
     textAlign: 'center',
     color: '#fff',
     fontSize: 16,
