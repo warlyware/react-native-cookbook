@@ -21,7 +21,7 @@ export default class MainApp extends Component {
     this.startAnimation();
   }
 
-  startAnimation () {
+  startAnimation() {
     this.animatedValue.setValue(width);
     Animated.timing(
       this.animatedValue,
@@ -29,7 +29,6 @@ export default class MainApp extends Component {
         toValue: -imageWidth,
         duration: 6000,
         easing: Easing.linear,
-        useNativeDriver: true,
       }
     ).start(() => this.startAnimation());
   }
@@ -57,7 +56,7 @@ const styles = StyleSheet.create({
   image: {
     height: imageHeight,
     position: 'absolute',
-    top: height/3,
+    top: height / 3,
     width: imageWidth,
   },
 });
