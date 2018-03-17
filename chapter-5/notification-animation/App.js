@@ -9,9 +9,10 @@ import {
 import Notification from './Notification';
 
 export default class App extends Component {
+
   state = {
     notify: false,
-    message: 'Lorem ipsum dolor sit amet...',
+    message: 'This is a notification!',
   };
 
   onToggleNotification = () => {
@@ -32,14 +33,20 @@ export default class App extends Component {
       <SafeAreaView>
         <Text style={styles.toolbar}>Main toolbar</Text>
         <View style={styles.content}>
-          <Text>Lorem ipsum...</Text>
+          <Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna.
+          </Text>
           <TouchableOpacity
             onPress={this.onToggleNotification}
             style={styles.btn}
           >
             <Text style={styles.text}>Show notification</Text>
           </TouchableOpacity>
-          <Text>Duis aute irure...</Text>
+          <Text>
+            Sed ut perspiciatis unde omnis iste natus error sit
+            accusantium doloremque laudantium.
+          </Text>
           {notify}
         </View>
       </SafeAreaView>
