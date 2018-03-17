@@ -15,7 +15,7 @@ export default class App extends Component {
     message: 'This is a notification!',
   };
 
-  onToggleNotification = () => {
+  toggleNotification = () => {
     this.setState({
       notify: !this.state.notify,
     });
@@ -26,7 +26,7 @@ export default class App extends Component {
       ? <Notification
           autoHide
           message={this.state.message}
-          onClose={this.onToggleNotification}
+          onClose={this.toggleNotification}
         />
     : null;
     return (
@@ -38,7 +38,7 @@ export default class App extends Component {
             sed do eiusmod tempor incididunt ut labore et dolore magna.
           </Text>
           <TouchableOpacity
-            onPress={this.onToggleNotification}
+            onPress={this.toggleNotification}
             style={styles.btn}
           >
             <Text style={styles.text}>Show notification</Text>
