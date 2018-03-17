@@ -1,21 +1,72 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import {
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  View,
+  SafeAreaView,
+} from 'react-native';
+import Notification from './Notification';
 
-export default class App extends React.Component {
+export default class App extends Component {
+  state = {
+    notify: false,
+    message: 'Lorem ipsum dolor sit amet...',
+  };
+
+  onToggleNotification = () => {
+    this.setState({
+      notify: !this.state.notify,
+    });
+  }
+
   render() {
+    const notify = this.state.notify
+      ? <Notification
+          autoHide
+          message={this.state.message}
+          onClose={this.onToggleNotification}
+        />
+    : null;
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
+      <SafeAreaView>
+        <Text style={styles.toolbar}>Main toolbar</Text>
+        <View style={styles.content}>
+          <Text>Lorem ipsum...</Text>
+          <TouchableOpacity
+            onPress={this.onToggleNotification}
+            style={styles.btn}
+          >
+            <Text style={styles.text}>Show notification</Text>
+          </TouchableOpacity>
+          <Text>Duis aute irure...</Text>
+          {notify}
+        </View>
+      </SafeAreaView>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  toolbar: {
+    backgroundColor: '#8e44ad',
+    color: '#fff',
+    fontSize: 22,
+    padding: 20,
+    textAlign: 'center',
+  },
+  content: {
+    padding: 10,
+    overflow: 'hidden',
+  },
+  btn: {
+    margin: 10,
+    backgroundColor: '#9b59b6',
+    borderRadius: 3,
+    padding: 10,
+  },
+  text: {
+    textAlign: 'center',
+    color: '#fff',
   },
 });
