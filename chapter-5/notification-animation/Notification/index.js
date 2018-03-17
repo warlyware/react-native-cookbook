@@ -61,7 +61,9 @@ export default class Notification extends Component {
 
   onLayoutChange = (event) => {
     const {layout: { height } } = event.nativeEvent;
-     this.setState({ height });
+    if (this.state.height === -1000) {
+      this.setState({ height });
+    }
    }
 
   render() {
