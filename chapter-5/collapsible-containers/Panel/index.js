@@ -13,12 +13,10 @@ export default class Panel extends Component {
   };
 
   static defaultProps = {
-    expanded: false,
-    onCollapse: () => {},
-    onExpand: () => {},
+    expanded: false
   };
 
-  onToggle = () => {
+  toggle = () => {
     LayoutAnimation.spring();
     this.setState({
       height: this.state.height === null ? 0 : null,
@@ -31,7 +29,7 @@ export default class Panel extends Component {
 
     return (
       <View style={[styles.main, style]}>
-        <TouchableOpacity onPress={this.onToggle}>
+        <TouchableOpacity onPress={this.toggle}>
           <Text style={styles.title}>
             {title}
           </Text>
