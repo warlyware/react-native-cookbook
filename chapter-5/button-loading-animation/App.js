@@ -3,6 +3,9 @@ import {
   Text,
   StyleSheet,
   View,
+  SafeAreaView,
+  Platform,
+  UIManager
 } from 'react-native';
 import Button from './Button';
 
@@ -25,7 +28,7 @@ export default class App extends Component {
     const { loading } = this.state;
 
     return (
-      <View style={styles.main}>
+      <SafeAreaView style={styles.main}>
         <Text style={styles.toolbar}>Animated containers</Text>
         <View style={styles.content}>
           <Button
@@ -34,7 +37,7 @@ export default class App extends Component {
             onPress={this.handleButtonPress}
           />
         </View>
-      </View>
+      </SafeAreaView>
     );
   }
 }
