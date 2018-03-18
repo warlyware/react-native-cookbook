@@ -2,15 +2,15 @@ import React from 'react';
 import {
   Text,
   StyleSheet,
-  View,
+  SafeAreaView,
 } from 'react-native';
 import ContactList from './ContactList';
 
-const MainApp = () => (
-  <View style={styles.main}>
+const App = () => (
+  <SafeAreaView style={styles.main}>
     <Text style={styles.toolbar}>Contacts</Text>
     <ContactList style={styles.content} />
-  </View>
+  </SafeAreaView>
 );
 
 const styles = StyleSheet.create({
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainApp;
+export default App;
