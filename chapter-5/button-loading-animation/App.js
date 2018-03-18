@@ -7,10 +7,15 @@ import {
 import Button from './Button';
 
 export default class App extends Component {
-
   state = {
     loading: false,
   };
+
+  componentWillMount() {
+    if (Platform.OS === 'android') {
+      UIManager.setLayoutAnimationEnabledExperimental(true);
+    }
+  }
 
   handleButtonPress = (loading) => {
     this.setState({ loading });
