@@ -32,12 +32,12 @@ export default class ContactItem extends Component {
       onPanResponderMove: Animated.event(
         [null, { dx: this.state.pan.x }]
       ),
-      onPanResponderRelease: this.onReleaseItem,
-      onPanResponderTerminate: this.onReleaseItem,
+      onPanResponderRelease: this.handleReleaseItem,
+      onPanResponderTerminate: this.handleReleaseItem,
     });
   }
 
-  onReleaseItem = (e, gesture) => {
+  handleReleaseItem = (e, gesture) => {
     const { onRemove, contact,onDragEnd } = this.props;
     const move = this.rowWidth - Math.abs(gesture.dx);
     let remove = false;
@@ -74,7 +74,7 @@ export default class ContactItem extends Component {
 
   setThreshold = (event) => {
     const { layout: { width } } = event.nativeEvent;
-    this.threshold = width/3;
+    this.threshold = width / 3;
     this.rowWidth = width;
   }
 

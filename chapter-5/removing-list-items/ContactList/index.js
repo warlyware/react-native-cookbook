@@ -9,6 +9,7 @@ class ContactList extends Component {
     ds = new ListView.DataSource({
       rowHasChanged: (r1, r2) => r1 !== r2
     });
+
     state = {
       dataSource: this.ds.cloneWithRows(data),
       swiping: false,
