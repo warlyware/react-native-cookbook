@@ -17,8 +17,7 @@ const icons = {
   surprised: require('./images/surprised.png'),
 };
 
-class Icon extends Component {
-
+export default class Icon extends Component {
   static defaultProps = {
     delay: 0,
     onPress: () => {},
@@ -80,5 +79,3 @@ const styles = StyleSheet.create({
     height: 40,
   },
 });
-
-export default Icon;

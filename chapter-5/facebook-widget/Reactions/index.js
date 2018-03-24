@@ -10,8 +10,7 @@ import Icon from './Icon';
 
 const image = require('./images/like.png');
 
-class Reactions extends Component {
-
+export default class Reactions extends Component {
   static defaultProps = {
     icons: [
       'like', 'heart', 'angry', 'laughing', 'surprised',
@@ -85,5 +84,3 @@ const styles = StyleSheet.create({
     height: 0,
   },
 });
-
-export default Reactions;
