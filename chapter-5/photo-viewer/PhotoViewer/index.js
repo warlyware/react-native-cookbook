@@ -15,10 +15,6 @@ export default class PhotoViewer extends Component {
     onClose: () => {},
   };
 
-  onPressBtn = () => {
-    this.props.onClose();
-  }
-
   componentWillMount() {
     this.animatedValue = new Animated.Value(0);
   }
@@ -32,6 +28,10 @@ export default class PhotoViewer extends Component {
         easing: Easing.in,
       }
     ).start();
+  }
+
+  onPressBtn = () => {
+    this.props.onClose();
   }
 
   render() {
@@ -56,7 +56,9 @@ export default class PhotoViewer extends Component {
             { top, opacity }
           ]}
         />
-        <TouchableOpacity style={styles.closeBtn} onPress={this.onPressBtn}>
+        <TouchableOpacity style={styles.closeBtn}
+          onPress={this.onPressBtn}
+        >
           <Text style={styles.closeBtnText}>X</Text>
         </TouchableOpacity>
       </Animated.View>

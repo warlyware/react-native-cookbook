@@ -12,7 +12,7 @@ const { width } = Dimensions.get('window');
 
 export default class PostContainer extends Component {
   static defaultProps = {
-    onPress: ()=> {},
+    onPress: () => {},
   };
 
   onPressImage = (event) => {
