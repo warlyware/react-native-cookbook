@@ -1,21 +1,48 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  Dimensions,
+  Image,
+  Text,
+  ScrollView,
+  StyleSheet,
+  SafeAreaView,
+} from 'react-native';
+import Reactions from './Reactions'
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
+const image1 = require('./images/01.jpg');
+const image2 = require('./images/02.jpg');
+const { width } = Dimensions.get('window');
+
+const MainApp = () => (
+  <SafeAreaView style={styles.main}>
+    <Text style={styles.toolbar}>Reactions</Text>
+    <ScrollView style={styles.content}>
+      <Image source={image1} style={styles.image} resizeMode="cover" />
+      <Reactions />
+      <Image source={image2} style={styles.image} resizeMode="cover" />
+      <Reactions />
+    </ScrollView>
+  </SafeAreaView>
+);
 
 const styles = StyleSheet.create({
-  container: {
+  main: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  toolbar: {
+    backgroundColor: '#3498db',
+    color: '#fff',
+    fontSize: 22,
+    padding: 20,
+    textAlign: 'center',
+  },
+  content: {
+    flex: 1,
+  },
+  image: {
+    width,
+    height: 300,
   },
 });
+
+export default MainApp;
