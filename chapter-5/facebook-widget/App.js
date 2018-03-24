@@ -13,7 +13,7 @@ const image1 = require('./images/01.jpg');
 const image2 = require('./images/02.jpg');
 const { width } = Dimensions.get('window');
 
-const MainApp = () => (
+const App = () => (
   <SafeAreaView style={styles.main}>
     <Text style={styles.toolbar}>Reactions</Text>
     <ScrollView style={styles.content}>
@@ -45,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainApp;
+export default App;
