@@ -5,7 +5,7 @@ import {
   Text,
   ScrollView,
   StyleSheet,
-  View,
+  SafeAreaView,
 } from 'react-native';
 import PostContainer from './PostContainer';
 import PhotoViewer from './PhotoViewer';
@@ -22,7 +22,7 @@ const timeline = [
   { title: 'Sakuras are beautiful!', image: image4 },
 ];
 
-export default class MainApp extends Component {
+export default class App extends Component {
   state = {
     selected: null,
     position: null,
@@ -58,7 +58,7 @@ export default class MainApp extends Component {
 
   render() {
     return (
-      <View style={styles.main}>
+      <SafeAreaView style={styles.main}>
         <Text style={styles.toolbar}>Timeline</Text>
         <ScrollView style={styles.content}>
         {
@@ -69,7 +69,7 @@ export default class MainApp extends Component {
         }
         </ScrollView>
         {this.renderViewer()}
-      </View>
+      </SafeAreaView>
     );
   }
 
