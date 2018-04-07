@@ -70,7 +70,7 @@ export default class App extends Component {
             placeholder="Post body..."
           />
           <TouchableOpacity onPress={this.onSave} style={styles.button}>
-            <Text>Save!</Text>
+            <Text>Save</Text>
           </TouchableOpacity>
           <TextInput
             style={styles.preview}
