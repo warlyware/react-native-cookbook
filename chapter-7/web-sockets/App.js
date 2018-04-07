@@ -5,6 +5,7 @@ import {
   StyleSheet,
   Text,
   TextInput,
+  SafeAreaView,
   View,
   Platform
 } from 'react-native';
@@ -79,7 +80,7 @@ export default class App extends Component {
     const { history, text } = this.state;
 
     return (
-      <View style={styles.container}>
+      <SafeAreaView style={styles.container}>
         <Text style={styles.toolbar}>Simple Chat</Text>
         <ScrollView style={styles.content}>
           { history.map(this.renderMessage) }
@@ -92,7 +93,7 @@ export default class App extends Component {
             onSubmitEditing={this.onSendMessage}
           />
         </View>
-      </View>
+      </SafeAreaView>
     );
   }
 }
