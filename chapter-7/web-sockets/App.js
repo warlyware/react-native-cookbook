@@ -65,11 +65,11 @@ export default class App extends Component {
     this.setState({ text });
   }
 
-  renderMessage(item, index){
-    const kind = item.owner ? styles.me : styles.friend;
+  renderMessage(item, index) {
+    const typeOf = item.owner ? styles.me : styles.friend;
 
     return (
-      <View style={[styles.msg, kind]} key={index}>
+      <View style={[styles.msg, typeOf]} key={index}>
         <Text>{item.msg}</Text>
       </View>
     );
