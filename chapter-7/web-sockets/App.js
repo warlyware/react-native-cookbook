@@ -21,11 +21,10 @@ export default class App extends Component {
     const localhost = Platform.OS === 'android' ? '10.0.3.2' : 'localhost';
 
     this.ws = new WebSocket(`ws://${localhost}:3001`);
-
     this.ws.onopen = this.onOpenConnection;
     this.ws.onmessage = this.onMessageReceived;
     this.ws.onerror = this.onError;
-    this.ws.onclose = this.onClose;
+    this.ws.onclose = this.onCloseConnection;
   }
 
   onOpenConnection = () => {
@@ -36,7 +35,7 @@ export default class App extends Component {
     console.log('onerror', event.message);
   }
 
-  onClose = (event) => {
+  onCloseConnection = (event) => {
     console.log('onclose', event.code, event.reason);
   }
 

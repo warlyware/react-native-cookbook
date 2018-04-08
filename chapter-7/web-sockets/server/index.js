@@ -1,13 +1,13 @@
 const port = 3001;
 const WebSocketServer = require('ws').Server;
-const wss = new WebSocketServer({ port });
+const server = new WebSocketServer({ port });
 
-wss.on('connection', (ws) => {
-  ws.on('message', (message) => {
+server.on('connection', (socket) => {
+  socket.on('message', (message) => {
     console.log('received: %s', message);
 
-    wss.clients.forEach(client => {
-      if (client !== ws) {
+    server.clients.forEach(client => {
+      if (client !== socket) {
         client.send(message);
       }
     });
