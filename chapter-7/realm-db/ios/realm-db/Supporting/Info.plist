@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>warlyware.realmdbapp</string>
+	<string>warlyware.realm-db</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,7 +23,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>exp583cd4eee2aa4f1f8dfda10033364d00</string>
+				<string>expd163ae91657c46e9996d43ef56fa0d88</string>
 			</array>
 		</dict>
 		<dict>
@@ -31,7 +31,7 @@
 			<string>OAuthRedirect</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>warlyware.realmdbapp</string>
+				<string>warlyware.realm-db</string>
 			</array>
 		</dict>
 	</array>

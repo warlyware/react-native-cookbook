@@ -5,11 +5,11 @@
   xmlns:tools="http://schemas.android.com/tools">
 
   <permission
-    android:name="warlyware.realmdbapp.permission.C2D_MESSAGE"
+    android:name="warlyware.realm-db.permission.C2D_MESSAGE"
     android:protectionLevel="signature"/>
 
   <!-- These are required permissions to make the app run -->
-  <uses-permission android:name="warlyware.realmdbapp.permission.C2D_MESSAGE" />
+  <uses-permission android:name="warlyware.realm-db.permission.C2D_MESSAGE" />
   <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
@@ -56,7 +56,7 @@
       android:screenOrientation="portrait"
       android:theme="@android:style/Theme.Translucent.NoTitleBar">
       <intent-filter>
-        <data android:scheme="exp583cd4eee2aa4f1f8dfda10033364d00"/>
+        <data android:scheme="expd163ae91657c46e9996d43ef56fa0d88"/>
 
         <action android:name="android.intent.action.VIEW"/>
 
@@ -132,7 +132,7 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="warlyware.realmdbapp" android:path="oauthredirect"/>
+        <data android:scheme="warlyware.realm-db" android:path="oauthredirect"/>
       </intent-filter>
     </activity>
 
@@ -210,7 +210,7 @@
         <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
         <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
 
-        <category android:name="warlyware.realmdbapp"/>
+        <category android:name="warlyware.realm-db"/>
       </intent-filter>
     </receiver>
 

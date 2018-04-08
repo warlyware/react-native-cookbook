@@ -14,7 +14,7 @@ public class AppConstants {
   public static final String VERSION_NAME = "2.4.0";
   public static String INITIAL_URL = "exp://exp.host/@warlyware/realm-db";
   public static final boolean IS_DETACHED = true;
-  public static final String SHELL_APP_SCHEME = "exp583cd4eee2aa4f1f8dfda10033364d00";
+  public static final String SHELL_APP_SCHEME = "expd163ae91657c46e9996d43ef56fa0d88";
   public static final String RELEASE_CHANNEL = "default";
   public static boolean SHOW_LOADING_VIEW_IN_SHELL_APP = false;
   public static boolean ARE_REMOTE_UPDATES_ENABLED = true;
