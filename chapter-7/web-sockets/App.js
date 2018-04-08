@@ -10,8 +10,6 @@ import {
   Platform
 } from 'react-native';
 
-const { width } = Dimensions.get('window');
-
 export default class App extends Component {
   state = {
     history: [],
@@ -43,7 +41,7 @@ export default class App extends Component {
     this.setState({
       history: [
         ...this.state.history,
-        { owner: false, msg: event.data },
+        { isSentByMe: false, messageText: event.data },
       ],
     });
   }
@@ -55,7 +53,7 @@ export default class App extends Component {
       text: '',
       history: [
         ...this.state.history,
-        { owner: true, msg: text },
+        { isSentByMe: true, messageText: text },
       ],
     });
     this.ws.send(text);
@@ -66,11 +64,11 @@ export default class App extends Component {
   }
 
   renderMessage(item, index) {
-    const typeOf = item.owner ? styles.me : styles.friend;
+    const sender = item.isSentByMe ? styles.me : styles.friend;
 
     return (
-      <View style={[styles.msg, typeOf]} key={index}>
-        <Text>{item.msg}</Text>
+      <View style={[styles.messageText, sender]} key={index}>
+        <Text>{item.messageText}</Text>
       </View>
     );
   }
@@ -120,7 +118,7 @@ const styles = StyleSheet.create({
     height: 40,
     backgroundColor: '#fff',
   },
-  msg: {
+  messageText: {
     margin: 5,
     padding: 10,
     borderRadius: 10,

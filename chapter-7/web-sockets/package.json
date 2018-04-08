@@ -2,7 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "node ./server/index.js"
+    "serve": "node ./server/index.js"
   },
   "dependencies": {
     "expo": "^26.0.0",
