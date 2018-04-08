@@ -1,27 +1,22 @@
 {
   "expo": {
-    "name": "realm-db",
-    "description": "This project is really great.",
-    "slug": "realm-db",
-    "privacy": "public",
     "sdkVersion": "26.0.0",
-    "platforms": ["ios", "android"],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "warlyware.realmdbapp",
+      "publishBundlePath": "ios/realm-db/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/realm-db/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "warlyware.realmdbapp"
+    },
+    "name": "realm-db",
+    "slug": "realm-db",
+    "version": "0.1.0",
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp583cd4eee2aa4f1f8dfda10033364d00",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.4.4-sdk26.0.0-3bd935c7-cdd3-4002-8e44-4df857a675f2.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.4.0-sdk26.0.0-e63d9209-070c-4118-b06b-c60e82da0b66.tar.gz"
     }
   }
 }
