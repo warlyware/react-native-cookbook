@@ -2,12 +2,12 @@
   "expo": {
     "sdkVersion": "26.0.0",
     "ios": {
-      "bundleIdentifier": "warlyware.realm-db",
+      "bundleIdentifier": "com.warlyware.realmdb",
       "publishBundlePath": "ios/realm-db/Supporting/shell-app.bundle",
       "publishManifestPath": "ios/realm-db/Supporting/shell-app-manifest.json"
     },
     "android": {
-      "package": "warlyware.realm-db"
+      "package": "com.warlyware.realmdb"
     },
     "name": "realm-db",
     "slug": "realm-db",

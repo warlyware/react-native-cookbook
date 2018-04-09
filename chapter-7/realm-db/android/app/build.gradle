@@ -103,6 +103,7 @@ preBuild.dependsOn exponentPrebuildStep
 
 
 dependencies {
+    compile project(':realm')
   compile fileTree(dir: 'libs', include: ['*.jar'])
 
   compile 'com.android.support:multidex:1.0.1'
