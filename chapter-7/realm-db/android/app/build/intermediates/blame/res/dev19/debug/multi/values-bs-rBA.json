@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 73,
+                    "endOffset": 124
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 73,
+                        "endOffset": 124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 129,
+                    "endColumn": 75,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 129,
+                        "endColumn": 75,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 69,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 69,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endColumn": 72,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 72,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 348,
+                    "endColumn": 80,
+                    "endOffset": 424
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 80,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 429,
+                    "endColumn": 70,
+                    "endOffset": 495
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 70,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 500,
+                    "endColumn": 68,
+                    "endOffset": 564
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-bs-rBA/values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 68,
+                        "endOffset": 564
+                    }
+                }
+            }
+        ]
+    }
+]

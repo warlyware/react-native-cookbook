@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/49372eedc4eb68bde5876a184f7c9d35f2cbbf5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfb92acadeeff1086115fff6b318e95df8b2b29">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_223126a648711b4646ce87402102139983efd358/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3e95d69feb55b644595ded54f64a9b6708de262b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a2f9209ff0d33539df6866d019181ecd1ecd047">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_24af8afbf56f9c4484c20c3bf1bbac4d976e5d27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_411535e389e0ce8e00473e95580c4b01b7c7d11d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d31df1090f55d5150109f5ee4cc04009346da2a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3167906ccd848f840192d9f4e6039ed02a6db5d6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_6f3c1c4bba6fbade0aa591c2515b000e46600815/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4cdd7af0d81c50d78e4710508427211a9935673b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_695d65eb68765235860c45916b55a91257105b8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/055af34c4146b2a28ff3b83b13e46fa5af72cd75/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="af69623378285932372eb7b3b8ff0ef66fa42b93">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_9b413fa2b22994869460db383f928a50b0f3f93e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-urlconnection-3.6.0_a8f0dd53980799ba90bca3baf54a5a48c7853d03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9eff473b695c089fe4b9d66085a725e1e83afa76/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_77af9ef753dfe5f3e3a7e484a0b5c07a6c6dc7a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0cb3bef31ad9a7328e6610ad9d80c56f59ee0a75/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_45dcc065cb0eef62209fdb1cf613af8e3e76da8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/907eeefead6e72c90df3515afca0937969246026/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea01f90e60978bc6871543cd76136a97a19450b5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_7edba21fb9394fba4b9220be84d0da6522fe4e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9d4fc5fb6e507c3a9b32e694b704393591e76d5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0227cde88d6eb8e7c463927377612fe16fd5df7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c4031560ef0006af9fec64a76d32842e6c7265a1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_f4aac0a9671aa519ae13d72465d55bbc0cc1d408/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/09baa047400193b1361d1565a8d8ee3fded56c02/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_361e43450bc1080594603b577152253b7d1605bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/327866df64165022fa41a1890b1c8eeb9057103a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_2a41985711d9c817f3a9c81225a2f5a603792fd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9b8a151bbb87fe639150db51bf038e19edbfb651">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e33c87bad4b68d9fc0d77dc56734860cc6df926a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/374aa943f6372a6c564ee3a43956a7bce53d36c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0257144905d8c9ebbf47dcdd7f16d8c2f68127e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/e1bb32b12b25e2f78e6786059ca7ea878f8345e0/support-annotations-26.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/support-annotations-26.0.1_0390c1bb18bc2e187bf3a986f8293e5c6237e692/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/73a02117620b6cc7683a1ed6ae24c2f36e2a715/nanohttpd-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/nanohttpd-2.2.0_f13655596b1004c420052ee5ee83d2099d23e14e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a72a9db37f977ba117f6abe056f87d5b69c52d74/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="418dca1ee8bac0cc2f78f8f34b594c4d89eec057">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3a288708589e530e371fb7209cd56bbebe0ae996/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/907eeefead6e72c90df3515afca0937969246026/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_378a8b03587ed72ca00fb8c85543404fecc9fd0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-3.4.1_837f6efbf87e2057128e8958742a44cdc3945a1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-cli-1.2_8240d89581842f092f2a88ef7bef23dc7437584b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/09baa047400193b1361d1565a8d8ee3fded56c02/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_361e43450bc1080594603b577152253b7d1605bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/staticlayout-proxy-1.0_0af8647e0f8122f9f82cce6e97a5d08045e23cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/jackson-core-2.2.3_8770cf1415822d4fe20df4184549ec8352bace23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/bolts-tasks-1.4.0_667addfea688d2d17e4c595609070c7762b0fb3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental-runtime-classes/dev19/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_74c5b1edd03968370a2b8766747b485d3477a0e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fd35ad075569b42bc18bca74cc43975236d106d7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="13469de5eef4b3c0488c0e4963fef197fc745f8a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_09f6f864e44571227f1947e7d8fa306a263b143d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/18c08eebc50b1a31189d6a192bb8887fe89ed0e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_65591c068f8a261274b7080dd6d321d691d6c756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/843b354287c9284144331d159db7d9ef112bcad1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b724d5323b2cd7b97ef901aac846952e927dd478/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/569a9ca531f3310e401168de2d090bbe12f308a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c4f8271f652b368688fbd02cf08071802b1fd6c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9597cd628390a5534b3686b3282eb95835382f6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a205ce762d5cc00501c1db1752bd0b1ddffc25a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/362e12d3c7f625d337b691c17aae2eb1db4a8120/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ad97f76c9cc9984333c814addf20a4dedf14d6b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/2c3148bb85f4f64380d1fec309e79e264448d545/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_59e46aa8d7833df65663a6b17a4014697dbaf944/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/055af34c4146b2a28ff3b83b13e46fa5af72cd75/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="af69623378285932372eb7b3b8ff0ef66fa42b93">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_9b413fa2b22994869460db383f928a50b0f3f93e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/34acab04db5ecac99f8ba855652edc8b6c73a6d8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_32673563ae8bee14118292500ebe36c492be16e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/000c2b6be7afa931105418def002f43e08e79058/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec224ad624f39212bacaf5903d989fe066166e7a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5074f99bfee01ce4a451fc478df543f39343ed57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fe4dedad562c2af7c100b4d35a368a209a77c2ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_64d3e6bcd74edd9afdb8778c1d8ad35810824a13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f0da6a0d14c723080a98767809ea11e622ae4c23/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_59774d63feefc87291bd66d613369054708156d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/947a5f35e564e2b3c0fff4d10f72e012fb993f20/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e5c5980be95e2d95aabecca2f299b843d4f0f565/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-3.4.1_837f6efbf87e2057128e8958742a44cdc3945a1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/13c90356836ea61b52d982fa43a409c18e219b74/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="131115ec18ae3951c1584c543de8baa9ac20012a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_09198cdd4de73974e2278ff9181990a9b08556a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.raizlabs.android/DBFlow-Core/2.2.1/e07bfc8e2041edf27469bd94e08bc19f52f4dee7/DBFlow-Core-2.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/DBFlow-Core-2.2.1_02aa27f217d5a6d71ccaa14beca7781ce2919338/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_411535e389e0ce8e00473e95580c4b01b7c7d11d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d31df1090f55d5150109f5ee4cc04009346da2a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/35909a8e8a2db1001dd010da22797b064f29201d/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_659d86fcfbb14f03915a247ef3b13d5e18781430/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f2025330c52aeba24d99478ce6ac7331c4e04c7f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70e15470bf5c49afc5fe5d640dd318c100ddca7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/56b6626d427587ecf004c0423044ab15cbc6024c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e8aa5c133f39f2c9e87c061432c4a30a96b8015e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/73a02117620b6cc7683a1ed6ae24c2f36e2a715/nanohttpd-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/nanohttpd-2.2.0_f13655596b1004c420052ee5ee83d2099d23e14e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-cli-1.2_8240d89581842f092f2a88ef7bef23dc7437584b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/907eeefead6e72c90df3515afca0937969246026/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_378a8b03587ed72ca00fb8c85543404fecc9fd0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/907eeefead6e72c90df3515afca0937969246026/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea01f90e60978bc6871543cd76136a97a19450b5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_7edba21fb9394fba4b9220be84d0da6522fe4e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/staticlayout-proxy-1.0_0af8647e0f8122f9f82cce6e97a5d08045e23cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/56b6626d427587ecf004c0423044ab15cbc6024c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e8aa5c133f39f2c9e87c061432c4a30a96b8015e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/5ffd42495c374b8fd314aec437ada2d7c6cb9d70/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8ba2e228c02419bbbafb870872b467adfa1ee3ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9597cd628390a5534b3686b3282eb95835382f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a205ce762d5cc00501c1db1752bd0b1ddffc25a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9c82b8f14a8d99566688dbdebf7505341c079d3e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_87b56f75c368b6d30105aedfb23a57e9432751b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ca9c9526e90a01037f46bd1dfc68a076c51fb2fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ff655606374520c8ad68f0b7dea3d698b66f0fdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fd35ad075569b42bc18bca74cc43975236d106d7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="13469de5eef4b3c0488c0e4963fef197fc745f8a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_09f6f864e44571227f1947e7d8fa306a263b143d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/bolts-tasks-1.4.0_667addfea688d2d17e4c595609070c7762b0fb3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.raizlabs.android/DBFlow-Core/2.2.1/e07bfc8e2041edf27469bd94e08bc19f52f4dee7/DBFlow-Core-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/DBFlow-Core-2.2.1_02aa27f217d5a6d71ccaa14beca7781ce2919338/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0cb3bef31ad9a7328e6610ad9d80c56f59ee0a75/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_45dcc065cb0eef62209fdb1cf613af8e3e76da8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-urlconnection-3.6.0_a8f0dd53980799ba90bca3baf54a5a48c7853d03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/965fc7067d93c9aba14f45cae7d54ecacb64ddf0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3d092511f97a4947bd8d2fb14dbf4de24b122939/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/569a9ca531f3310e401168de2d090bbe12f308a2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c4f8271f652b368688fbd02cf08071802b1fd6c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-ws-3.4.1_a37bc0b428157262a0b2f7f39ebaa5f3f163ad52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/18c08eebc50b1a31189d6a192bb8887fe89ed0e0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_65591c068f8a261274b7080dd6d321d691d6c756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/49372eedc4eb68bde5876a184f7c9d35f2cbbf5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfb92acadeeff1086115fff6b318e95df8b2b29">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_223126a648711b4646ce87402102139983efd358/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4019b1fcd961de28f5ea4f057de473b966858e54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3f3e872fe07c5e563080ed7c5e4a948c1e9b2ae7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3047444322504d745d35fb156acf949d2650578d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_2e44a50e2c9cdf964b16eec892eafd8d5e5138f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-io-1.3.2_4fed0aade74c5d855e97ba53e0eda0220375395b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ce17202b85f828fb50dce526568da5b7c94588bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a774607cf90ca991586347daa59ed0de0ad9cb49">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3158b8f6d9d300105558b0fbb00c39ca5cba113f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/000c2b6be7afa931105418def002f43e08e79058/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec224ad624f39212bacaf5903d989fe066166e7a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5074f99bfee01ce4a451fc478df543f39343ed57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3c8a342b38b88d814aa5ad33d6e0099271b29ce4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_619f048d0ae5c9da8d9b722f9f8eef54a0bee0db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f0da6a0d14c723080a98767809ea11e622ae4c23/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_59774d63feefc87291bd66d613369054708156d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/442ff22f2a6bd6c6ca7fc429ad05c93aa825508f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c9f8239f7028b96713b713c6985b46ebfa04b39a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/dc8217963a7a4b4eb5cead4763b3f40bb25e54ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1bec683646c87d2a40594271dc815814e84c65e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6519e3171f273ce202d0988aa5cad67edab6d6a2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae335c9696bc1513f7e3bb96a731b722712d7a63">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_6393a5ff47822012e42d7b973fb574996ba3405a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7b80c12ec995a52ba4ff9930bb39914a0a6ebe3d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a29bd45a2ca9add1ba6a4a703048328c36e4a560/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/f2025330c52aeba24d99478ce6ac7331c4e04c7f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70e15470bf5c49afc5fe5d640dd318c100ddca7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/881dea8e542824d06ad272e4f26edbca22ea1dea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_181b95c954d7349aa98d90b83165caf0477e0e1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/13c90356836ea61b52d982fa43a409c18e219b74/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="131115ec18ae3951c1584c543de8baa9ac20012a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_09198cdd4de73974e2278ff9181990a9b08556a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/91395d1e039cd6ec96420a3a18e34938e813258d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d4a2e0f5e340958f111c7df5a58fb4810f275b47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/58b9faace13a92b7122e79800e7a216ad6a49321/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_92c2538034ad7b5160f838427d6882b972cfea2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/947a5f35e564e2b3c0fff4d10f72e012fb993f20/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e5c5980be95e2d95aabecca2f299b843d4f0f565/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-io-1.3.2_4fed0aade74c5d855e97ba53e0eda0220375395b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/5ffd42495c374b8fd314aec437ada2d7c6cb9d70/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8ba2e228c02419bbbafb870872b467adfa1ee3ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/eventbus-2.4.0_db408f28fec7fafdc22bc8860159228047b6fb5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ee17eafa9d922edd6ae79eb3ef723063bff752a/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_f9da2c8b36dac5a60be39207f1360f45db226e9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/picasso-2.5.2_c20c2139ba08b9c4df84146d3a0b8a2c30cf774d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/aa819fc7b032e058eae6c7f21a2bef6eac1b7deb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1d8f743f85a8b1b28ea0921ab3fe9b34772b60e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-3.6.0_9a6e8321e60f8177d886d7637b072563447c6a67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/676d20e582700c8d2b706245c323cfd78df2022f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="906fdd57c143ec9adc27a76a697fed1c0cfd6348">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_95fba022f758cf37135995211212cbb3e79289bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7b80c12ec995a52ba4ff9930bb39914a0a6ebe3d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a29bd45a2ca9add1ba6a4a703048328c36e4a560/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c4031560ef0006af9fec64a76d32842e6c7265a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_f4aac0a9671aa519ae13d72465d55bbc0cc1d408/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/442ff22f2a6bd6c6ca7fc429ad05c93aa825508f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c9f8239f7028b96713b713c6985b46ebfa04b39a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/picasso-2.5.2_c20c2139ba08b9c4df84146d3a0b8a2c30cf774d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3e95d69feb55b644595ded54f64a9b6708de262b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a2f9209ff0d33539df6866d019181ecd1ecd047">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_24af8afbf56f9c4484c20c3bf1bbac4d976e5d27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4289d6a1df5f89ff4034b9292a4eadab03727500/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_4718c20f39c8dfb84080c6de46fb49b31f5a152e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ce17202b85f828fb50dce526568da5b7c94588bb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a774607cf90ca991586347daa59ed0de0ad9cb49">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3158b8f6d9d300105558b0fbb00c39ca5cba113f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0e46eadd03c5109a313d4c40da7d68a25e4326ab/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_37c5187cc1cd91444fa739bd1a2d22ec3a8a6ec6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9d4fc5fb6e507c3a9b32e694b704393591e76d5/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_6252aea27622106fbc5c67206456d5ddba2f8205/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9eff473b695c089fe4b9d66085a725e1e83afa76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_77af9ef753dfe5f3e3a7e484a0b5c07a6c6dc7a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3c8a342b38b88d814aa5ad33d6e0099271b29ce4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_619f048d0ae5c9da8d9b722f9f8eef54a0bee0db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/374aa943f6372a6c564ee3a43956a7bce53d36c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0257144905d8c9ebbf47dcdd7f16d8c2f68127e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9b8a151bbb87fe639150db51bf038e19edbfb651">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e33c87bad4b68d9fc0d77dc56734860cc6df926a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9792da821ebabd0e7f39fcf53e9efa6d39452f11/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a3761fb410ea055efd9f7783dc2a30cbcf481a06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/1f4666495c585531e83048f1639a5796f13026cb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_60224de685c7cc119814e7722c703783076815a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6519e3171f273ce202d0988aa5cad67edab6d6a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae335c9696bc1513f7e3bb96a731b722712d7a63">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_6393a5ff47822012e42d7b973fb574996ba3405a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/327866df64165022fa41a1890b1c8eeb9057103a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_2a41985711d9c817f3a9c81225a2f5a603792fd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/881dea8e542824d06ad272e4f26edbca22ea1dea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_181b95c954d7349aa98d90b83165caf0477e0e1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a72a9db37f977ba117f6abe056f87d5b69c52d74/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="418dca1ee8bac0cc2f78f8f34b594c4d89eec057">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3a288708589e530e371fb7209cd56bbebe0ae996/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/2.9.2/5ff2f760c3bcad9d4e60f1f84aa695321184ebc0/android-sdk-2.9.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ff2f760c3bcad9d4e60f1f84aa695321184ebc0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/android-sdk-2.9.2_f0363201571cd058e1e3e2f6a32b21bb0f91905a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/362e12d3c7f625d337b691c17aae2eb1db4a8120/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ad97f76c9cc9984333c814addf20a4dedf14d6b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/676d20e582700c8d2b706245c323cfd78df2022f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="906fdd57c143ec9adc27a76a697fed1c0cfd6348">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_95fba022f758cf37135995211212cbb3e79289bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/bolts-applinks-1.4.0_7f7bf49063d59b4bb9d464cc43602e3a18a8cb09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okio-1.9.0_706da73f88a753420896a69af95ebcc06565a317/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/jackson-core-2.2.3_8770cf1415822d4fe20df4184549ec8352bace23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/58b9faace13a92b7122e79800e7a216ad6a49321/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_92c2538034ad7b5160f838427d6882b972cfea2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/91395d1e039cd6ec96420a3a18e34938e813258d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d4a2e0f5e340958f111c7df5a58fb4810f275b47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/aa819fc7b032e058eae6c7f21a2bef6eac1b7deb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1d8f743f85a8b1b28ea0921ab3fe9b34772b60e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/eventbus-2.4.0_db408f28fec7fafdc22bc8860159228047b6fb5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ccccd769e1db2a889030eb663eac0fec9a48c14/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_69da1107a7ebd9027d28c36642ebafa981ecf725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/8f1ecfbd458ea1d7941cc39310bca9b429bb45c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_453d27bfbb9a0ff482bff7d0bc16256e2a3ba2dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/39bd87cbf077300d4b78466e45bd45acdc17c99c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_327ac3fc280ab990b15c53d946bbbb76067e22a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0e46eadd03c5109a313d4c40da7d68a25e4326ab/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_37c5187cc1cd91444fa739bd1a2d22ec3a8a6ec6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7a9780e2678bd5ef5f342bb36fcfde70ef8596bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dae2154348a4c38a18e8d1042cf445faea4647d0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_9d3a22eef7c9744cc9c7f21401b6d0eae6ce1644/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a5142d182abc13c5181bc933ae4d03de235961db/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5b8ad869bcdda9504cc896b5c07c6ce6b0378f72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4289d6a1df5f89ff4034b9292a4eadab03727500/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_4718c20f39c8dfb84080c6de46fb49b31f5a152e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3f9ca64165885924ed69430cf5ef119a14d5aae4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_22b7a9f924c0bc6c99bf2175fcadd464f4cf3a48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70f7d93458dc0ddbdcbb5c9610b399f0b15d3feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.53.0.0/72c4892e05c7563fbab0c4ada0187cd879113389/prov-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/prov-1.53.0.0_d3d6aacbc919a5665ba654836f13f7e1600546da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4540a3088d7be69085bf07776de5793ea1252347/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_bfe06d5fc3ca969a8a8225999b46a5eb5cc1731a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.segment.analytics.android/analytics/4.3.0/88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e/analytics-4.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/analytics-4.3.0_179e387f70c510624083a0e17dacab07f5ef7dd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/stetho-1.3.1_ef7b63e5a751237f163d83a1af78a48dc8b9b9d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4289d6a1df5f89ff4034b9292a4eadab03727500/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_6860e065352dcae2b82eb874f8cbfd3bcbe99da0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okio-1.9.0_706da73f88a753420896a69af95ebcc06565a317/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9792da821ebabd0e7f39fcf53e9efa6d39452f11/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a3761fb410ea055efd9f7783dc2a30cbcf481a06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/core-3.3.0_2251da0dc1bb358c15bfb6b92956a3c5077dd0da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/2.9.2/5ff2f760c3bcad9d4e60f1f84aa695321184ebc0/android-sdk-2.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ff2f760c3bcad9d4e60f1f84aa695321184ebc0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/android-sdk-2.9.2_f0363201571cd058e1e3e2f6a32b21bb0f91905a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-urlconnection-3.4.1_00f5112f121abcef1fabd41f414d378f30e73408/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/25fbabc452fc32edece4d6361cbd8851cb7fca87/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_87acd2125d9dffc6b4ab1c87c0439a46a78e3285/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/core-3.3.0_2251da0dc1bb358c15bfb6b92956a3c5077dd0da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okio-1.13.0_2347851f6bfaff3ee29c2a428720ef805a9f8198/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.segment.analytics.android/analytics/4.3.0/88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e/analytics-4.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/analytics-4.3.0_179e387f70c510624083a0e17dacab07f5ef7dd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/stetho-1.3.1_ef7b63e5a751237f163d83a1af78a48dc8b9b9d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70f7d93458dc0ddbdcbb5c9610b399f0b15d3feb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6e50e5f61a7b09901999d01de428bd95d7ea01bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d1ed69dd2791b5b3a82a77f282078a615b378284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ee17eafa9d922edd6ae79eb3ef723063bff752a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9efb4d1173374e0c0072b5e36e7871112660dd3c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1c36e49d6a9b16d0ce8ea0b5556c48b7f923204c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ccccd769e1db2a889030eb663eac0fec9a48c14/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_69da1107a7ebd9027d28c36642ebafa981ecf725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/8f1ecfbd458ea1d7941cc39310bca9b429bb45c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_453d27bfbb9a0ff482bff7d0bc16256e2a3ba2dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a5142d182abc13c5181bc933ae4d03de235961db/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5b8ad869bcdda9504cc896b5c07c6ce6b0378f72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/32670732c5a279646367da79713a80e2948d6956/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d83f4c792025685b12e5c85fc5b54328350efbb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/35909a8e8a2db1001dd010da22797b064f29201d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_29466fa5a87923696d41ebb94eb003c402921b98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9d4fc5fb6e507c3a9b32e694b704393591e76d5/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_6252aea27622106fbc5c67206456d5ddba2f8205/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/586b9dc542c0c9495a0cdad15563da06957314d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d9beb3d54c12f345a0da3941b4ae0ae0df5e3116/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/31ab3d30feaa2db7e8fa062d9856d0f97577a410/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c41bd8d83f9c270e2e08d635908f5c6d9e5cb5bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-3.6.0_9a6e8321e60f8177d886d7637b072563447c6a67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/25fbabc452fc32edece4d6361cbd8851cb7fca87/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_87acd2125d9dffc6b4ab1c87c0439a46a78e3285/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0e46eadd03c5109a313d4c40da7d68a25e4326ab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_de9b68ef412f1d7583e2890866aeb10079d36966/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/butterknife-7.0.1_1d4bcc1616413d3b28f21fce71bbe38c3b928690/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/bolts-applinks-1.4.0_7f7bf49063d59b4bb9d464cc43602e3a18a8cb09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fd445d20ab6c475fc12ab2740b5a59c5b47e1ac7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b87861f49859e10684d912db6095f633172180b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4b71917513c6a4201fab5df0f152eb3985fd4cf6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_88769a8ab02bba0c1d65231d8fc04285ea9f6ee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/59ac7a6fea8ce2ae052806f5d49dfd35f12490ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9111e38999fee0b16a1ccd057b779f5b08f330e2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_93e8c9af7f08042ce521aba6584da037671b8dba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/7a9780e2678bd5ef5f342bb36fcfde70ef8596bb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dae2154348a4c38a18e8d1042cf445faea4647d0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_9d3a22eef7c9744cc9c7f21401b6d0eae6ce1644/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/1f4666495c585531e83048f1639a5796f13026cb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_60224de685c7cc119814e7722c703783076815a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4b71917513c6a4201fab5df0f152eb3985fd4cf6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_88769a8ab02bba0c1d65231d8fc04285ea9f6ee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/59ac7a6fea8ce2ae052806f5d49dfd35f12490ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9111e38999fee0b16a1ccd057b779f5b08f330e2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_93e8c9af7f08042ce521aba6584da037671b8dba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6e50e5f61a7b09901999d01de428bd95d7ea01bd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d1ed69dd2791b5b3a82a77f282078a615b378284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/jsr305-3.0.0_16fa6a190c761c2f72c424952eeefdb1edc46d65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.53.0.0/619f704791db186304325bd129b2e7ec34f77438/core-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/core-1.53.0.0_89d00306c30d328519aec6e9dc8628e7928ca0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/dc8217963a7a4b4eb5cead4763b3f40bb25e54ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1bec683646c87d2a40594271dc815814e84c65e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/maven/expolib_v1/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okio-1.13.0_2347851f6bfaff3ee29c2a428720ef805a9f8198/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/36e28e892770f60108cc0162271b4adecafd3a34/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_038b8dda740c08b64881e460303774942e359efb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.53.0.0/72c4892e05c7563fbab0c4ada0187cd879113389/prov-1.53.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/prov-1.53.0.0_d3d6aacbc919a5665ba654836f13f7e1600546da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/universal-image-loader-1.9.5_deda6e1c489c7195e232a5861d9a80b7b3a221e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3047444322504d745d35fb156acf949d2650578d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_2e44a50e2c9cdf964b16eec892eafd8d5e5138f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a72a9db37f977ba117f6abe056f87d5b69c52d74/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_4d42f70cfeae0a3381b215fd74713ab8e429ce77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/0e46eadd03c5109a313d4c40da7d68a25e4326ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_de9b68ef412f1d7583e2890866aeb10079d36966/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c93a0184ec681b24b1540929ff3f5dfbd3e0a012/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3cc93bc98d5b895c82091e093b7f5d6c412f6951/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ee17eafa9d922edd6ae79eb3ef723063bff752a/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_f9da2c8b36dac5a60be39207f1360f45db226e9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ac283d947ee0c04a7c2f24cf27e00cd8a9c36d7a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_4571a0c863c4a0b8dea89c5ed6c5d2164d62e39e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6c187f8923ea0787441221b1d1fe840de97bc5eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1e079348cc296db385db965c9d1fce57833f69f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c93a0184ec681b24b1540929ff3f5dfbd3e0a012/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3cc93bc98d5b895c82091e093b7f5d6c412f6951/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c8285ba967c0aa396ed05b9e248bf27e23de0e15/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e526cd243ad54b64b3224a89e875809596368f71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/13a0d073b3f1acc7c90ced719e57ac0bbd550d0b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ed126a134bee796278c9d911ec3651b928eb2bda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fe4dedad562c2af7c100b4d35a368a209a77c2ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_64d3e6bcd74edd9afdb8778c1d8ad35810824a13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental-classes/dev19/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="87ad6a82b2d4364e8f2732335f42a66db4ab19dc">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_9702e3cd33fabe77442ac1327b4b54e5acbee26e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/328d1a92eb2e654ea3a6d33fee57759d9dd07934/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c83a644dfc8545d77ed076721762fc4eb4092d81">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d756aa7a65d11fc7eaa32f74c4539488bd78cccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/69309c7bcdc1473162807e0a398f23771952d63c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53dc9d74b0ac22d201549cd806780597d9679e9a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b3947c7e9a33bf2d21c809192d965981bc34b383/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/d4b240060f33d9ca5842e0c695f6c20d44a6406a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_be703ee83098a3ee5a9b7f0b585a9f4bf57d0ee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6ae9440eb3f7213ddf86edbb65138def45943826/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_abb0085fd6aed378af10271ffdad0466296eed5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/35909a8e8a2db1001dd010da22797b064f29201d/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="43579bbbc605c8815aa55ad85d856fb5588250d2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_659d86fcfbb14f03915a247ef3b13d5e18781430/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/34acab04db5ecac99f8ba855652edc8b6c73a6d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_32673563ae8bee14118292500ebe36c492be16e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/17b199f0f5b1b0bb9a593dbc02834fb460bacefb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="79b01f1eace6ce22c6ffd67000bd6b5c5d2477a9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70e434e613bd5d03306367296e25f2550c383a6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.device.yearclass/yearclass/1.0.1/adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22/yearclass-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/yearclass-1.0.1_33b8bc193a8b23fdfdd6d79077fe810acfcaa62f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a471ca0d3c54ee3b32200661a5047bfff0931321/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5c26009484cd1e36ece6ca7c624394c7b31ba13a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fd445d20ab6c475fc12ab2740b5a59c5b47e1ac7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b87861f49859e10684d912db6095f633172180b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ca9c9526e90a01037f46bd1dfc68a076c51fb2fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ff655606374520c8ad68f0b7dea3d698b66f0fdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.device.yearclass/yearclass/1.0.1/adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22/yearclass-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/yearclass-1.0.1_33b8bc193a8b23fdfdd6d79077fe810acfcaa62f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ce17202b85f828fb50dce526568da5b7c94588bb/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a30a80d40b875fec941cafdceaf514b74ca6d76">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_2a3d7cbad614f6b271948164081fa56dc00fd15e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-ws-3.4.1_a37bc0b428157262a0b2f7f39ebaa5f3f163ad52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/9c82b8f14a8d99566688dbdebf7505341c079d3e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_87b56f75c368b6d30105aedfb23a57e9432751b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/jsr305-3.0.0_16fa6a190c761c2f72c424952eeefdb1edc46d65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4d1351ef090083f8cd77c2582a85584eab06974b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03530f261b6f66dbcae414f12c732bd943f5ba53">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e07353e63bef64a7243f409cd24a4c3475141fde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/javax.inject-1_6bb23043a17c81e0ff3988f04d3be9d4f969e08a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/d4b240060f33d9ca5842e0c695f6c20d44a6406a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_be703ee83098a3ee5a9b7f0b585a9f4bf57d0ee4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/680ee597363c124deeca6b59858db8c2f7c0856f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_73b7bc3d5f123aea3dca2382e7091d8619c070f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4019b1fcd961de28f5ea4f057de473b966858e54/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3f3e872fe07c5e563080ed7c5e4a948c1e9b2ae7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/13a0d073b3f1acc7c90ced719e57ac0bbd550d0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ed126a134bee796278c9d911ec3651b928eb2bda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a72a9db37f977ba117f6abe056f87d5b69c52d74/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_4d42f70cfeae0a3381b215fd74713ab8e429ce77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.3.1/c596b3b33b5a92107bb70544bb5ee35f597bc6d8/stetho-okhttp3-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/stetho-okhttp3-1.3.1_67ab64e448c3d3073d385868e49cd9fb141c5a7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ac283d947ee0c04a7c2f24cf27e00cd8a9c36d7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_4571a0c863c4a0b8dea89c5ed6c5d2164d62e39e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/36e28e892770f60108cc0162271b4adecafd3a34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_038b8dda740c08b64881e460303774942e359efb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/328d1a92eb2e654ea3a6d33fee57759d9dd07934/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c83a644dfc8545d77ed076721762fc4eb4092d81">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d756aa7a65d11fc7eaa32f74c4539488bd78cccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/a471ca0d3c54ee3b32200661a5047bfff0931321/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5c26009484cd1e36ece6ca7c624394c7b31ba13a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/b1d047bbc186a42708e1e53bb68d25fbdd1b7ebd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8187a0b92a05e3e1e380de0d6f67166160354bef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4cdd7af0d81c50d78e4710508427211a9935673b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_695d65eb68765235860c45916b55a91257105b8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/965fc7067d93c9aba14f45cae7d54ecacb64ddf0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3d092511f97a4947bd8d2fb14dbf4de24b122939/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/universal-image-loader-1.9.5_deda6e1c489c7195e232a5861d9a80b7b3a221e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6c187f8923ea0787441221b1d1fe840de97bc5eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1e079348cc296db385db965c9d1fce57833f69f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/e9d4fc5fb6e507c3a9b32e694b704393591e76d5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0227cde88d6eb8e7c463927377612fe16fd5df7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/39bd87cbf077300d4b78466e45bd45acdc17c99c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_327ac3fc280ab990b15c53d946bbbb76067e22a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fdd40f8234bc21bd1b8b61a15895195165e808f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42a37372fca7123a593202ba76a7f98fbd691f05">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_cf41eea878c7ad7a8124bfeedb9a8d4278cf30b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3ee17eafa9d922edd6ae79eb3ef723063bff752a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9efb4d1173374e0c0072b5e36e7871112660dd3c">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1c36e49d6a9b16d0ce8ea0b5556c48b7f923204c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.53.0.0/619f704791db186304325bd129b2e7ec34f77438/core-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/core-1.53.0.0_89d00306c30d328519aec6e9dc8628e7928ca0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/69309c7bcdc1473162807e0a398f23771952d63c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53dc9d74b0ac22d201549cd806780597d9679e9a">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b3947c7e9a33bf2d21c809192d965981bc34b383/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/c8285ba967c0aa396ed05b9e248bf27e23de0e15/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e526cd243ad54b64b3224a89e875809596368f71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4540a3088d7be69085bf07776de5793ea1252347/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_bfe06d5fc3ca969a8a8225999b46a5eb5cc1731a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/okhttp-urlconnection-3.4.1_00f5112f121abcef1fabd41f414d378f30e73408/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/e1bb32b12b25e2f78e6786059ca7ea878f8345e0/support-annotations-26.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/support-annotations-26.0.1_0390c1bb18bc2e187bf3a986f8293e5c6237e692/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4289d6a1df5f89ff4034b9292a4eadab03727500/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_6860e065352dcae2b82eb874f8cbfd3bcbe99da0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/17b199f0f5b1b0bb9a593dbc02834fb460bacefb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="79b01f1eace6ce22c6ffd67000bd6b5c5d2477a9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_70e434e613bd5d03306367296e25f2550c383a6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/586b9dc542c0c9495a0cdad15563da06957314d9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d9beb3d54c12f345a0da3941b4ae0ae0df5e3116/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/6ae9440eb3f7213ddf86edbb65138def45943826/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_abb0085fd6aed378af10271ffdad0466296eed5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/javax.inject-1_6bb23043a17c81e0ff3988f04d3be9d4f969e08a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/4d1351ef090083f8cd77c2582a85584eab06974b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03530f261b6f66dbcae414f12c732bd943f5ba53">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e07353e63bef64a7243f409cd24a4c3475141fde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/fdd40f8234bc21bd1b8b61a15895195165e808f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42a37372fca7123a593202ba76a7f98fbd691f05">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_cf41eea878c7ad7a8124bfeedb9a8d4278cf30b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3f9ca64165885924ed69430cf5ef119a14d5aae4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_22b7a9f924c0bc6c99bf2175fcadd464f4cf3a48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/butterknife-7.0.1_1d4bcc1616413d3b28f21fce71bbe38c3b928690/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/843b354287c9284144331d159db7d9ef112bcad1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b724d5323b2cd7b97ef901aac846952e927dd478/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/2c3148bb85f4f64380d1fec309e79e264448d545/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_59e46aa8d7833df65663a6b17a4014697dbaf944/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/3167906ccd848f840192d9f4e6039ed02a6db5d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_6f3c1c4bba6fbade0aa591c2515b000e46600815/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/680ee597363c124deeca6b59858db8c2f7c0856f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_73b7bc3d5f123aea3dca2382e7091d8619c070f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/b1d047bbc186a42708e1e53bb68d25fbdd1b7ebd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8187a0b92a05e3e1e380de0d6f67166160354bef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/32670732c5a279646367da79713a80e2948d6956/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d83f4c792025685b12e5c85fc5b54328350efbb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/ce17202b85f828fb50dce526568da5b7c94588bb/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a30a80d40b875fec941cafdceaf514b74ca6d76">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_2a3d7cbad614f6b271948164081fa56dc00fd15e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/31ab3d30feaa2db7e8fa062d9856d0f97577a410/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c41bd8d83f9c270e2e08d635908f5c6d9e5cb5bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.3.1/c596b3b33b5a92107bb70544bb5ee35f597bc6d8/stetho-okhttp3-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/stetho-okhttp3-1.3.1_67ab64e448c3d3073d385868e49cd9fb141c5a7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dan/.android/build-cache/35909a8e8a2db1001dd010da22797b064f29201d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a315c4dce1b163f2ddf71bab62f3b56eb05c6a15">
+        <dex dex="/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_29466fa5a87923696d41ebb94eb003c402921b98/classes.dex" />
+    </item>
+
+</items>

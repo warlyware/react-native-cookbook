@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-et-rEE/values-et-rEE.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 77,
+                    "endOffset": 128
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 77,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 133,
+                    "endColumn": 73,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 133,
+                        "endColumn": 73,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 66,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 66,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 65,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 65,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 76,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 76,
+                        "endOffset": 412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 417,
+                    "endColumn": 73,
+                    "endOffset": 486
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 417,
+                        "endColumn": 73,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 491,
+                    "endColumn": 65,
+                    "endOffset": 552
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-et-rEE/values-et-rEE.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 491,
+                        "endColumn": 65,
+                        "endOffset": 552
+                    }
+                }
+            }
+        ]
+    }
+]

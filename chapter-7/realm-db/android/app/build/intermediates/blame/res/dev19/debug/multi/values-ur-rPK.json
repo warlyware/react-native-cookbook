@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 86,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 86,
+                        "endOffset": 137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 69,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 69,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 71,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 71,
+                        "endOffset": 279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 284,
+                    "endColumn": 66,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 66,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endColumn": 74,
+                    "endOffset": 421
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 74,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 426,
+                    "endColumn": 75,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 75,
+                        "endOffset": 497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 65,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ur-rPK/values-ur-rPK.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 502,
+                        "endColumn": 65,
+                        "endOffset": 563
+                    }
+                }
+            }
+        ]
+    }
+]

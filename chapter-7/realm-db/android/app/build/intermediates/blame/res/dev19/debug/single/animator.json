@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_right_out.xml",
+        "source": "/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/res/animator/card_flip_right_out.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_left_in.xml",
+        "source": "/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_left_out.xml",
+        "source": "/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_right_in.xml",
+        "source": "/Users/dan/.android/build-cache/7990ea9fb6506dc82dc5f795d0594b941e8d9131/output/res/animator/card_flip_right_in.xml"
+    }
+]

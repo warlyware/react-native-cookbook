@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-ta-rIN/values-ta-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 82,
+                    "endOffset": 133
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 82,
+                        "endOffset": 133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 138,
+                    "endColumn": 73,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 138,
+                        "endColumn": 73,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 72,
+                    "endOffset": 280
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 72,
+                        "endOffset": 280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 285,
+                    "endColumn": 66,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 285,
+                        "endColumn": 66,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 352,
+                    "endColumn": 78,
+                    "endOffset": 426
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 78,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 431,
+                    "endColumn": 77,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 77,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 68,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "/Users/dan/.android/build-cache/8aa720965e72ed14a8a2dbcc743f83ddd7c60f47/output/res/values-ta-rIN/values-ta-rIN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 68,
+                        "endOffset": 573
+                    }
+                }
+            }
+        ]
+    }
+]

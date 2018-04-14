@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/dan/.android/build-cache/66173fa6d97c2c6a433546df7abe2869a2fb36c4/output/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/shell_notification_icon.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/shell_notification_icon.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/ic_home_white_36dp.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/ic_home_white_36dp.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/big_logo_dark_filled.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/big_logo_dark_filled.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/ic_arrow_back_white_36dp.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/ic_arrow_back_white_36dp.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/big_logo_filled.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/big_logo_filled.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/pin_white_fade.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/pin_white_fade.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/notification_icon.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/notification_icon.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/ic_logo_white_32dp.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/ic_logo_white_32dp.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/pin_white.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/pin_white.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/ic_share_white_36dp.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/ic_share_white_36dp.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/big_logo_dark.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/big_logo_dark.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxxhdpi/ic_refresh_white_36dp.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/drawable-xxxhdpi/ic_refresh_white_36dp.png"
+    }
+]

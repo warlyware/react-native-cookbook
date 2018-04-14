@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/mipmap-mdpi/dev_icon.png",
+        "source": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/src/main/res/mipmap-mdpi/dev_icon.png"
+    }
+]

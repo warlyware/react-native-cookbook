@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/layout-v21/notification_action.xml",
+        "source": "/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/res/merged/dev19/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/dan/.android/build-cache/f174cf10c057cc818c4ecfa43d849f328ce5f203/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
