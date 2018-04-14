@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity
+} from 'react-native';
 import Realm from 'realm';
 
 export default class App extends Component {
   realm = 'undefined';
-
-
-  getRandomUser() {
-    return fetch('https://randomuser.me/api/').then((response)=>response.json());
-  }
 
   componentWillMount() {
     const realm = this.realm = new Realm({
