@@ -8,7 +8,7 @@ import {
 import Realm from 'realm';
 
 export default class App extends Component {
-  realm = 'undefined';
+  realm;
 
   componentWillMount() {
     const realm = this.realm = new Realm({
@@ -27,7 +27,8 @@ export default class App extends Component {
   }
 
   getRandomUser() {
-    return fetch('https://randomuser.me/api/').then((response)=>response.json());
+    return fetch('https://randomuser.me/api/')
+      .then(response => response.json());
   }
 
   createUser = () => {
@@ -78,7 +79,6 @@ export default class App extends Component {
           Welcome to Realm DB Test!
         </Text>
         <View style={styles.buttonContainer}>
-
            <TouchableOpacity style={styles.button}
            onPress={this.createUser}>
             <Text style={styles.buttontext}>Add User</Text>
@@ -95,6 +95,7 @@ export default class App extends Component {
         <View style={styles.container}>
         <Text style={styles.welcome}>Users:</Text>
         {this.state.users.map((user, idx) => {
+          console.log(user);
           return <Text key={idx}>{user.firstName} {user.lastName}
          {user.email}</Text>;
         })}
