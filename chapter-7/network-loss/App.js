@@ -16,8 +16,7 @@ export default class App extends Component {
   componentWillMount() {
     NetInfo.getConnectionInfo().then((connectionInfo) => {
       this.onConnectivityChange(connectionInfo);
-    })
-
+    });
     NetInfo.addEventListener('connectionChange', this.onConnectivityChange);
   }
 
