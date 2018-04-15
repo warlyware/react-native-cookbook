@@ -1,12 +1,13 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import {
+  SafeAreaView,
   NetInfo,
   StyleSheet,
   Text,
   View,
 } from 'react-native';
 
-export default class App extends PureComponent {
+export default class App extends Component {
   state = {
     online: null,
     offline: null,
@@ -25,8 +26,6 @@ export default class App extends PureComponent {
   }
 
   onConnectivityChange = connectionInfo => {
-    // const type = connectionInfo.toLowerCase();
-    console.log('connection change', connectionInfo.type);
     this.setState({
       online: connectionInfo.type !== 'none',
       offline: connectionInfo.type === 'none',
@@ -50,12 +49,12 @@ export default class App extends PureComponent {
 
   render() {
     return (
-      <View style={styles.container}>
+      <SafeAreaView style={styles.container}>
         <Text style={styles.toolbar}>My Awesome App</Text>
         <Text style={styles.text}>Lorem...</Text>
         <Text style={styles.text}>Lorem ipsum...</Text>
         {this.renderMask()}
-      </View>
+      </SafeAreaView>
     );
   }
 }
@@ -75,4 +74,27 @@ const styles = StyleSheet.create({
   text: {
     padding: 10,
   },
+  mask: {
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    bottom: 0,
+    justifyContent: 'center',
+    left: 0,
+    position: 'absolute',
+    top: 0,
+    right: 0,
+  },
+  msg: {
+    backgroundColor: '#ecf0f1',
+    borderRadius: 10,
+    height: 200,
+    justifyContent: 'center',
+    padding: 10,
+    width: 300,
+  },
+  alert: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 5,
+  }
 });
