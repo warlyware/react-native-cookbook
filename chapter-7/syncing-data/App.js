@@ -10,7 +10,13 @@ import {
 export default class App extends React.Component {
   pendingSync;
 
-  onConnectedChange = (isConnected) => {
+  state = {
+    isConnected: null,
+    syncStatus: null,
+    serverResponse: null
+  }
+
+  onConnectionChange = (isConnected) => {
     this.setState({isConnected});
     if (this.pendingSync) {
       this.setState({syncStatus : 'Syncing'});
@@ -21,16 +27,10 @@ export default class App extends React.Component {
   }
 
   componentWillMount() {
-    this.setState({
-      isConnected : undefined,
-      syncStatus : undefined,
-      serverResponse : undefined
-    });
-
     NetInfo.isConnected.fetch().then(isConnected => {
       this.setState({isConnected});
     });
-    NetInfo.isConnected.addEventListener('connectionChange', this.onConnectedChange);
+    NetInfo.isConnected.addEventListener('connectionChange', this.onConnectionChange);
   }
 
   submitData(requestBody) {
