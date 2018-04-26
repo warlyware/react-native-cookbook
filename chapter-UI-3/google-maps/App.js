@@ -1,5 +1,5 @@
 import React from 'react';
-import { Location, Permissions, MapView } from 'expo';
+import { Location, Permissions, MapView, Marker } from 'expo';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 export default class App extends React.Component {
@@ -12,7 +12,6 @@ export default class App extends React.Component {
     this.setState({
       location
     });
-    console.log(location.coords);
   }
 
   async componentDidMount() {
@@ -33,6 +32,12 @@ export default class App extends React.Component {
           longitudeDelta: 0.0421,
         }}
       >
+        <MapView.Marker
+          coordinate={this.state.location.coords}
+          title={"User Location"}
+          description={"You are here!"}
+          image={require('./assets/you-are-here.png')}
+        />
       </MapView> : null
   }
 
