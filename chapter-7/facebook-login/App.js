@@ -1,24 +1,30 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Alert } from 'react-native';
-import Expo from 'expo';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  Alert
+} from 'react-native';
+import { Facebook } from 'expo';
+import APP_ID from './APP_ID';
 
 export default class App extends React.Component {
   state = {
     loggedIn: false,
-    facebookInfo: {},
+    facebookUserInfo: {}
   }
 
   logIn = async () => {
-    const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync('432496933841985', {
+    const { type, token } = await Facebook.logInWithReadPermissionsAsync(APP_ID, {
       permissions: ['public_profile'],
     });
 
     if (type === 'success') {
       const response = await fetch(`https://graph.facebook.com/me?access_token=${token}`);
-      const facebookInfo = await response.json();
-      console.log(facebookInfo);
+      const facebookUserInfo = await response.json();
       this.setState({
-        facebookInfo,
+        facebookUserInfo,
         loggedIn: true
       });
     }
@@ -28,9 +34,9 @@ export default class App extends React.Component {
     return this.state.loggedIn ? (
       <View style={styles.facebookUserInfo}>
         <Text style={styles.facebookUserInfoLabel}>Name:</Text>
-        <Text style={styles.facebookUserInfoText}>{this.state.facebookInfo.name}</Text>
-        <Text style={styles.facebookUserInfoLabel}>Session ID:</Text>
-        <Text style={styles.facebookUserInfoText}>{this.state.facebookInfo.id}</Text>
+        <Text style={styles.facebookUserInfoText}>{this.state.facebookUserInfo.name}</Text>
+        <Text style={styles.facebookUserInfoLabel}>User ID:</Text>
+        <Text style={styles.facebookUserInfoText}>{this.state.facebookUserInfo.id}</Text>
       </View>
     ) : null;
   }
