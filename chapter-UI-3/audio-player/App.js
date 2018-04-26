@@ -1,6 +1,13 @@
 import React from 'react';
 import { Audio } from 'expo';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Feather } from '@expo/vector-icons';
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  Dimensions
+} from 'react-native';
 
 const playlist = [
   {
@@ -79,7 +86,6 @@ export default class App extends React.Component {
     this.setState({
       isBuffering: status.isBuffering
     });
-    console.log('onPlaybackStatusUpdate called', status.isLoaded, this.state.isLoaded);
   }
 
   async loadAudio() {
@@ -101,10 +107,16 @@ export default class App extends React.Component {
   renderSongInfo() {
     const { playbackInstance, currentTrackIndex } = this.state;
     return playbackInstance ?
-    <View>
-      <Text>{playlist[currentTrackIndex].title}</Text>
-      <Text>{playlist[currentTrackIndex].artist}</Text>
-      <Text>{playlist[currentTrackIndex].album}</Text>
+    <View style={styles.trackInfo}>
+      <Text style={[styles.trackInfoText, styles.largeText]}>
+        {playlist[currentTrackIndex].title}
+      </Text>
+      <Text style={[styles.trackInfoText, styles.smallText]}>
+        {playlist[currentTrackIndex].artist}
+      </Text>
+      <Text style={[styles.trackInfoText, styles.smallText]}>
+        {playlist[currentTrackIndex].album}
+      </Text>
     </View>
     : null;
   }
@@ -112,23 +124,33 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>{this.state.isBuffering ? 'Buffering...' : null}</Text>
+        <Text style={[styles.largeText, styles.buffer]}>
+          {this.state.isBuffering && this.state.playing ? 'Buffering...' : null}
+        </Text>
         {this.renderSongInfo()}
-        <TouchableOpacity
-          onPress={this.handlePreviousTrack}
-        >
-          <Text>Previous Track</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={this.handlePlayPause}
-        >
-          <Text>Play/Pause</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={this.handleNextTrack}
-        >
-          <Text>Next Track</Text>
-        </TouchableOpacity>
+        <View style={styles.controls}>
+          <TouchableOpacity
+            style={styles.control}
+            onPress={this.handlePreviousTrack}
+          >
+            <Feather name="skip-back" size={32} color="#fff"/>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.control}
+            onPress={this.handlePlayPause}
+          >
+            {this.state.playing ?
+              <Feather name="pause" size={32} color="#fff"/> :
+              <Feather name="play" size={32} color="#fff"/>
+            }
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.control}
+            onPress={this.handleNextTrack}
+          >
+            <Feather name="skip-forward" size={32} color="#fff"/>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
@@ -137,8 +159,32 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#191A1A',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  trackInfo: {
+    padding: 40,
+    backgroundColor: '#191A1A',
+  },
+  buffer: {
+    color: '#fff'
+  },
+  trackInfoText: {
+    textAlign: 'center',
+    flexWrap: 'wrap',
+    color: '#fff'
+  },
+  largeText: {
+    fontSize: 22
+  },
+  smallText: {
+    fontSize: 16
+  },
+  control: {
+    margin: 20
+  },
+  controls: {
+    flexDirection: 'row'
+  }
 });
