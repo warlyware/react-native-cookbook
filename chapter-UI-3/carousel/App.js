@@ -1,6 +1,12 @@
 import React from 'react';
-import axios from 'axios';
-import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  ScrollView,
+  TouchableOpacity
+} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 const imageSearchTerms = [
