@@ -9,7 +9,8 @@ const savedPushTokens = [];
 const handlePushTokens = (message) => {
   // Create the messages that you want to send to clents
   let messages = [];
-  for (let pushToken of somePushTokens) {
+  console.log(`savedPushTokens`, savedPushTokens);
+  for (let pushToken of savedPushTokens) {
     // Each push token looks like ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]
 
     // Check that all your push tokens appear to be valid Expo push tokens
@@ -50,7 +51,9 @@ const handlePushTokens = (message) => {
 }
 
 const saveToken = (token) => {
-  savedPushTokens.push(token);
+  if (savedPushTokens.indexOf(token === -1)) {
+    savedPushTokens.push(token);
+  }
 }
 
 app.use(express.json());
@@ -60,13 +63,13 @@ app.get('/', (req, res) => {
 });
 
 app.post('/token', (req, res) => {
-  saveToken(req.body.token);
-  console.log(`Recieved push token, ${req.body.token}`);
-  res.send(`Recieved push token, ${req.body.token}`);
+  saveToken(req.body.token.value);
+  res.send(`Recieved push token, ${req.body.token.value}`);
 });
 
 app.post('/message', (req, res) => {
   handlePushTokens(req.body.message);
+  res.send(`Recieved push token, ${req.body.message}`);
 });
 
 app.listen(3000, () => {

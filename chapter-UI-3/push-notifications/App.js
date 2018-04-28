@@ -10,8 +10,8 @@ import {
 import axios from 'axios';
 import { Permissions, Notifications } from 'expo';
 
-const PUSH_REGISTRATION_ENDPOINT = 'https://localhost:3000/token';
-const MESSAGE_ENPOINT = 'https://70.160.29.130:3000/message';
+const PUSH_REGISTRATION_ENDPOINT = 'http://51d1c2e3.ngrok.io/token';
+const MESSAGE_ENPOINT = 'http://51d1c2e3.ngrok.io/message';
 
 export default class App extends React.Component {
   state = {
@@ -20,6 +20,7 @@ export default class App extends React.Component {
   }
 
   handleNotification = (notification) => {
+    console.log('notification recieved!', notification);
     this.setState({ notification });
   }
 
@@ -29,6 +30,7 @@ export default class App extends React.Component {
 
   sendMessage = async () => {
     console.log('sending', MESSAGE_ENPOINT);
+
     fetch(MESSAGE_ENPOINT, {
       method: 'POST',
       headers: {
@@ -36,31 +38,9 @@ export default class App extends React.Component {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        firstParam: 'yourValue',
-        secondParam: 'yourOtherValue',
+        message: 'yourValue',
       }),
     });
-    // await axios.post(MESSAGE_ENPOINT, {
-    //   message: this.state.messageText
-    // })
-    // .then((data) => console.log(data))
-    // .catch(err => console.log(err));
-    //   fetch(MESSAGE_ENPOINT, {
-    //     method: 'POST',
-    //     headers: {
-    //       Accept: 'application/json',
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify({
-    //       token: {
-    //         value: token,
-    //       },
-    //       message: this.state.messageText
-    //     }),
-    //   });
-    // } catch (error) {
-    //   console.log(error);
-    // }
   }
 
   registerForPushNotificationsAsync = async () => {
@@ -70,10 +50,11 @@ export default class App extends React.Component {
     }
 
     let token = await Notifications.getExpoPushTokenAsync();
+    console.log(`token is: ${token}`);
     return fetch(PUSH_REGISTRATION_ENDPOINT, {
       method: 'POST',
       headers: {
-        Accept: 'application/json',
+        'Accept': 'application/json',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
@@ -91,18 +72,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    // this.registerForPushNotificationsAsync();
-    fetch(`http://localhost:3000/test`, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        firstParam: 'yourValue',
-        secondParam: 'yourOtherValue',
-      }),
-    });
+    this.registerForPushNotificationsAsync();
   }
 
   render() {
