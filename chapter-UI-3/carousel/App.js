@@ -1,32 +1,56 @@
 import React from 'react';
 import axios from 'axios';
-import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
+import Carousel from 'react-native-snap-carousel';
 
-const imageUrls = [
-  'https://source.unsplash.com/350x350/?books',
-  'https://source.unsplash.com/350x350/?code',
-  'https://source.unsplash.com/350x350/?nature',
-  'https://source.unsplash.com/350x350/?cats',
+const imageSearchTerms = [
+  'Books',
+  'Code',
+  'Nature',
+  'Cats',
 ];
 
 export default class App extends React.Component {
+  state = {
+    showCarousel: false
+  }
 
-  renderImages = () => {
-    return imageUrls.map((imageUrl, index) => {
-      return <Image
-        source={{ uri: imageUrl }}
-        key ={index}
-        style={{ width:350, height: 350 }}
-      />
-    });
+  showCarousel = () => {
+    this.setState({ showCarousel: true });
+  }
+
+  renderItem = ({item}) => {
+    return (
+      <View style={styles.slide}>
+        <Image
+          style={styles.image}
+          source={{ uri: `https://source.unsplash.com/350x350/?${item}`
+        }}/>
+        <Text style={styles.label}>{item}</Text>
+      </View>
+    );
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <ScrollView>
-          {this.renderImages()}
-        </ScrollView>
+        {this.state.showCarousel ?
+          <Carousel
+            layout={'default'}
+            data={imageSearchTerms}
+            renderItem={this.renderItem}
+            sliderWidth={350}
+            itemWidth={350}
+            loop={true}
+          >
+          </Carousel> :
+          <TouchableOpacity
+            onPress={this.showCarousel}
+            style={styles.button}
+          >
+            <Text style={styles.label}>Open Carousel</Text>
+          </TouchableOpacity>
+        }
       </View>
     );
   }
@@ -35,8 +59,26 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#474747',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  slide: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  image: {
+    width:350,
+    height: 350,
+  },
+  label: {
+    fontSize: 30,
+    padding: 20,
+    color: '#fff'
+  },
+  button: {
+    padding: 10,
+    backgroundColor: '#000'
+  }
 });
