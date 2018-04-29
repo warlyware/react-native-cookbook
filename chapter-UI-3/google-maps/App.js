@@ -1,14 +1,23 @@
-import React from 'react';
-import { Location, Permissions, MapView, Marker } from 'expo';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import React, { Component } from 'react';
+import {
+  Location,
+  Permissions,
+  MapView,
+  Marker
+} from 'expo';
+import {
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     location: null
   }
 
   async getLocation() {
-    let location = await Location.getCurrentPositionAsync({});
+    let location = await Location.getCurrentPositionAsync();
     this.setState({
       location
     });
@@ -28,8 +37,8 @@ export default class App extends React.Component {
         initialRegion={{
           latitude: this.state.location.coords.latitude,
           longitude: this.state.location.coords.longitude,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
+          latitudeDelta: 0.09,
+          longitudeDelta: 0.04,
         }}
       >
         <MapView.Marker
