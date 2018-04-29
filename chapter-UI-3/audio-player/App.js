@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Audio } from 'expo';
 import { Feather } from '@expo/vector-icons';
 import {
@@ -30,9 +30,9 @@ const playlist = [
   }
 ];
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
-    playing: false,
+    isPlaying: false,
     playbackInstance: null,
     volume: 1.0,
     currentTrackIndex: 0,
@@ -51,10 +51,10 @@ export default class App extends React.Component {
   }
 
   handlePlayPause = async () => {
-    const { playing, playbackInstance } = this.state;
-    playing ? await playbackInstance.pauseAsync() : await playbackInstance.playAsync();
+    const { isPlaying, playbackInstance } = this.state;
+    isPlaying ? await playbackInstance.pauseAsync() : await playbackInstance.playAsync();
     this.setState({
-      playing: !playing
+      isPlaying: !isPlaying
     });
   }
 
@@ -94,7 +94,7 @@ export default class App extends React.Component {
       uri: playlist[this.state.currentTrackIndex].uri
     }
 		const status = {
-			shouldPlay: this.state.playing,
+			shouldPlay: this.state.isPlaying,
 			volume: this.state.volume,
     };
     playbackInstance.setOnPlaybackStatusUpdate(this.onPlaybackStatusUpdate);
@@ -125,7 +125,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={[styles.largeText, styles.buffer]}>
-          {this.state.isBuffering && this.state.playing ? 'Buffering...' : null}
+          {this.state.isBuffering && this.state.isPlaying ? 'Buffering...' : null}
         </Text>
         {this.renderSongInfo()}
         <View style={styles.controls}>
@@ -139,7 +139,7 @@ export default class App extends React.Component {
             style={styles.control}
             onPress={this.handlePlayPause}
           >
-            {this.state.playing ?
+            {this.state.isPlaying ?
               <Feather name="pause" size={32} color="#fff"/> :
               <Feather name="play" size={32} color="#fff"/>
             }
