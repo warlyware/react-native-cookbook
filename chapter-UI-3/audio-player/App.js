@@ -39,9 +39,8 @@ export default class App extends Component {
     isBuffering: false,
   }
 
-	componentDidMount() {
-		Audio.setAudioModeAsync({
-			allowsRecordingIOS: false,
+	async componentDidMount() {
+		await Audio.setAudioModeAsync({
 			interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
 			playsInSilentModeIOS: true,
 			shouldDuckAndroid: true,
@@ -89,7 +88,7 @@ export default class App extends Component {
   }
 
   async loadAudio() {
-    const playbackInstance = new Expo.Audio.Sound();
+    const playbackInstance = new Audio.Sound();
     const source = {
       uri: playlist[this.state.currentTrackIndex].uri
     }
