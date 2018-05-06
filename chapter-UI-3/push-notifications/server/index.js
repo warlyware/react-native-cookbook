@@ -4,12 +4,12 @@ import Expo from 'expo-server-sdk';
 const app = express();
 const expo = new Expo();
 
-const savedPushTokens = [];
+let savedPushTokens = [];
+const PORT_NUMBER = 3000;
 
 const handlePushTokens = (message) => {
   // Create the messages that you want to send to clents
-  let messages = [];
-  console.log(`savedPushTokens`, savedPushTokens);
+  let notifications = [];
   for (let pushToken of savedPushTokens) {
     // Each push token looks like ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]
 
@@ -20,10 +20,11 @@ const handlePushTokens = (message) => {
     }
 
     // Construct a message (see https://docs.expo.io/versions/latest/guides/push-notifications.html)
-    messages.push({
+    notifications.push({
       to: pushToken,
       sound: 'default',
-      body: 'Message recieved!',
+      title: 'Message received!',
+      body: message,
       data: { message },
     })
   }
@@ -33,7 +34,7 @@ const handlePushTokens = (message) => {
   // recommend you batch your notifications to reduce the number of requests
   // and to compress them (notifications with similar content will get
   // compressed).
-  let chunks = expo.chunkPushNotifications(messages);
+  let chunks = expo.chunkPushNotifications(notifications);
 
   (async () => {
     // Send the chunks to the Expo push notification service. There are
@@ -64,14 +65,16 @@ app.get('/', (req, res) => {
 
 app.post('/token', (req, res) => {
   saveToken(req.body.token.value);
-  res.send(`Recieved push token, ${req.body.token.value}`);
+  console.log(`Received push token, ${req.body.token.value}`);
+  res.send(`Received push token, ${req.body.token.value}`);
 });
 
 app.post('/message', (req, res) => {
   handlePushTokens(req.body.message);
-  res.send(`Recieved push token, ${req.body.message}`);
+  console.log(`Received message, ${req.body.message}`);
+  res.send(`Received message, ${req.body.message}`);
 });
 
-app.listen(3000, () => {
-  console.log('Server Online')
+app.listen(PORT_NUMBER, () => {
+  console.log(`Server Online on Port ${PORT_NUMBER}`);
 });

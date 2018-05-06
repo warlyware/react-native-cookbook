@@ -7,20 +7,18 @@ import {
   Modal,
   TouchableOpacity
 } from 'react-native';
-import axios from 'axios';
 import { Permissions, Notifications } from 'expo';
 
-const PUSH_REGISTRATION_ENDPOINT = 'http://51d1c2e3.ngrok.io/token';
-const MESSAGE_ENPOINT = 'http://51d1c2e3.ngrok.io/message';
+const PUSH_REGISTRATION_ENDPOINT = 'http://ddf558bd.ngrok.io/token';
+const MESSAGE_ENPOINT = 'http://ddf558bd.ngrok.io/message';
 
 export default class App extends React.Component {
   state = {
     notification: null,
-    messageText: 'asdf'
+    messageText: ''
   }
 
   handleNotification = (notification) => {
-    console.log('notification recieved!', notification);
     this.setState({ notification });
   }
 
@@ -29,8 +27,6 @@ export default class App extends React.Component {
   }
 
   sendMessage = async () => {
-    console.log('sending', MESSAGE_ENPOINT);
-
     fetch(MESSAGE_ENPOINT, {
       method: 'POST',
       headers: {
@@ -38,9 +34,10 @@ export default class App extends React.Component {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        message: 'yourValue',
+        message: this.state.messageText,
       }),
     });
+    this.setState({ messageText: '' });
   }
 
   registerForPushNotificationsAsync = async () => {
@@ -48,9 +45,7 @@ export default class App extends React.Component {
     if (status !== 'granted') {
       return;
     }
-
     let token = await Notifications.getExpoPushTokenAsync();
-    console.log(`token is: ${token}`);
     return fetch(PUSH_REGISTRATION_ENDPOINT, {
       method: 'POST',
       headers: {
@@ -75,6 +70,15 @@ export default class App extends React.Component {
     this.registerForPushNotificationsAsync();
   }
 
+  renderNotification() {
+    return(
+      <View style={styles.container}>
+        <Text style={styles.label}>A new message was recieved!</Text>
+        <Text>{this.state.notification.data.message}</Text>
+      </View>
+    )
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -89,12 +93,9 @@ export default class App extends React.Component {
         >
           <Text style={styles.buttonText}>Send</Text>
         </TouchableOpacity>
-          {this.state.notification ?
-            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-              <Text>Origin: {this.state.notification.origin}</Text>
-              <Text>Data: {JSON.stringify(this.state.notification.data)}</Text>
-            </View>
-          : null}
+        {this.state.notification ?
+          this.renderNotification()
+        : null}
       </View>
     );
   }
@@ -121,5 +122,8 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 18,
     color: '#fff'
+  },
+  label: {
+    fontSize: 18
   }
 });
