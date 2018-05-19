@@ -1,34 +1,13 @@
-import { combineReducers, createStore } from 'redux';
+import { combineReducers, createStore, applyMiddleware } from 'redux';
 import {
   loadPhotos,
   addPhoto,
   removePhoto,
   updatePhoto
 } from './modules/photos/actions';
+import reducers from './modules/photos/reducers';
+import fetchMiddleware from './middleware/fetchMiddleware';
 
-const store = createStore(reducers);
-
-const unsubscribe = store.subscribe(() => {
-  console.log(store.getState());
-});
-
-store.dispatch(loadBookmarks());
-
-store.dispatch(addBookmark({
-  id: 2,
-  title: 'One more',
-  url: 'http://other.com',
-}));
-
-store.dispatch(updateBookmark({
-  id: 2,
-  title: 'One more edited',
-  url: 'http://other-edit.com',
-}));
-
-store.dispatch(removeBookmark({ id: 1 }));
-
-unsubscribe();
-
+const store = createStore(reducers, applyMiddleware(fetchMiddleware));
 
 export default store;
