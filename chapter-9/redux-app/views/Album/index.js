@@ -49,7 +49,9 @@ class Album extends Component {
 
   removePhoto = (id) => {
     this.props.removePhoto(id);
-    this.props.fetchPhotos();
+    setTimeout(() => {
+      this.props.fetchPhotos();
+    }, 100);
   }
 
   render() {
