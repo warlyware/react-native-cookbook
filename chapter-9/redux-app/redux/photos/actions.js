@@ -33,9 +33,9 @@ export const REMOVE_PHOTO_PENDING = 'REMOVE_PHOTO_PENDING';
 export const REMOVE_PHOTO_FULFILLED = 'REMOVE_PHOTO_FULFILLED';
 export const REMOVE_PHOTO_REJECTED = 'REMOVE_PHOTO_REJECTED';
 export const REMOVE_PHOTO = 'REMOVE_PHOTO';
-export const removePhoto = (photo) => {
+export const removePhoto = (id) => {
   return {
     type: REMOVE_PHOTO,
-    payload: photo,
+    payload: axios.delete(`${API_URL}/photos/${id}`)
   };
 }

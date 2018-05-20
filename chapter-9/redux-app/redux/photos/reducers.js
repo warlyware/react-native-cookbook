@@ -5,7 +5,7 @@ import {
   ADD_PHOTO_PENDING,
   ADD_PHOTO_FULFILLED,
   ADD_PHOTO_REJECTED,
-  REMOVE_PHOTO,
+  REMOVE_PHOTO_PENDING,
   REMOVE_PHOTO_FULFILLED,
   REMOVE_PHOTO_REJECTED,
 } from './actions';
@@ -16,7 +16,7 @@ const initialState = {
   didError: false
 };
 
-export default function reducer(state = initialState, action) {
+const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_PHOTOS_PENDING:
       return {
@@ -36,22 +36,26 @@ export default function reducer(state = initialState, action) {
       };
 
     case ADD_PHOTO_PENDING:
-      console.log('UPLOAD GO');
+    case REMOVE_PHOTO_PENDING:
       return {
         isLoading: true
       };
     case ADD_PHOTO_FULFILLED:
-      console.log(action.payload.data);
+    case REMOVE_PHOTO_FULFILLED:
       return {
         isLoading: false,
         didError: false
       };
     case ADD_PHOTO_REJECTED:
+    case REMOVE_PHOTO_REJECTED:
       return {
         isLoading: false,
         didError: true
       };
+
     default:
       return state;
   }
 }
+
+export default reducer;

@@ -3,12 +3,12 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import { Provider } from 'react-redux';
 import store from './redux';
 
-import Albums from './views/Albums';
+import Album from './views/Album';
 
 const App = () => (
   <Provider store={store}>
     <SafeAreaView style={styles.container}>
-      <Albums />
+      <Album />
     </SafeAreaView>
   </Provider>
 );

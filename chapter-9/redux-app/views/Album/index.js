@@ -11,9 +11,13 @@ import {
 } from 'react-native';
 import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
-import { fetchPhotos, addPhoto } from '../../redux/photos/actions';
+import {
+  fetchPhotos,
+  addPhoto,
+  removePhoto
+} from '../../redux/photos/actions';
 
-class Albums extends Component {
+class Album extends Component {
   state = {
     dataSource: {},
     photos: [],
@@ -43,18 +47,27 @@ class Albums extends Component {
     this.props.fetchPhotos();
   }
 
+  removePhoto = (id) => {
+    this.props.removePhoto(id);
+    this.props.fetchPhotos();
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.toolbar}>Albums</Text>
+        <Text style={styles.toolbar}>Album</Text>
           <ScrollView>
             <View style={styles.imageContainer}>
-              <TouchableOpacity style={styles.button} onPress={() => this.addPhoto()}>
-                <Text>add</Text>
+              <TouchableOpacity style={styles.button} onPress={this.addPhoto}>
+                <Text style={styles.buttonText}>Add Photo</Text>
               </TouchableOpacity>
               {this.props.photos ? this.props.photos.map((photo) => {
                 return(
-                  <Image style={styles.image} key={photo.id} source={{ uri: photo.url }} />
+                  <TouchableOpacity onPress={() => this.removePhoto(photo.id)} key={photo.id}>
+                    <Image style={styles.image}
+                      source={{ uri: photo.url }}
+                    />
+                  </TouchableOpacity>
                 );
               }) : null}
             </View>
@@ -87,8 +100,13 @@ const styles = StyleSheet.create({
     width: 300
   },
   button: {
-    padding: 30,
-    backgroundColor: 'green'
+    margin: 10,
+    padding: 20,
+    backgroundColor: '#3498db'
+  },
+  buttonText: {
+    fontSize: 18,
+    color: '#fff'
   }
 });
 
@@ -101,8 +119,9 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     fetchPhotos: () => dispatch(fetchPhotos()),
-    addPhoto: (photo) => dispatch(addPhoto(photo))
+    addPhoto: (photo) => dispatch(addPhoto(photo)),
+    removePhoto: (id) => dispatch(removePhoto(id))
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Albums);
+export default connect(mapStateToProps, mapDispatchToProps)(Album);
