@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import { Provider } from 'react-redux';
 import store from './redux';
 
-import Album from './views/Album';
+import Album from './components/Album';
 
 const App = () => (
   <Provider store={store}>
