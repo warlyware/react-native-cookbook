@@ -10,7 +10,24 @@ export const FETCH_PHOTOS_REJECTED = 'FETCH_PHOTOS_REJECTED';
 export const fetchPhotos = () => {
   return {
     type: FETCH_PHOTOS,
-    payload: axios.get(`${API_URL}/photos`)
+    payload: {
+      "photos": [
+        {
+          "albumId": 2,
+          "title": "dolore esse a in eos sed",
+          "url": "http://placehold.it/600/f783bd",
+          "thumbnailUrl": "http://placehold.it/150/d83ea2",
+          "id": 2
+        },
+        {
+          "albumId": 2,
+          "title": "dolore esse a in eos sed",
+          "url": "http://placehold.it/600/8e6eef",
+          "thumbnailUrl": "http://placehold.it/150/bf6d2a",
+          "id": 3
+        }
+      ]
+    }
   }
 }
 
@@ -21,11 +38,7 @@ export const ADD_PHOTO = 'ADD_PHOTO';
 export const addPhoto = (photo) => {
   return {
     type: ADD_PHOTO,
-    payload: axios.post(`${API_URL}/photos`, photo, {
-      headers: {
-        'Content-type': 'application/json'
-      }
-    }),
+    payload: photo
   };
 }
 
@@ -33,9 +46,9 @@ export const REMOVE_PHOTO_PENDING = 'REMOVE_PHOTO_PENDING';
 export const REMOVE_PHOTO_FULFILLED = 'REMOVE_PHOTO_FULFILLED';
 export const REMOVE_PHOTO_REJECTED = 'REMOVE_PHOTO_REJECTED';
 export const REMOVE_PHOTO = 'REMOVE_PHOTO';
-export const removePhoto = (id) => {
+export const removePhoto = (photo) => {
   return {
     type: REMOVE_PHOTO,
-    payload: axios.delete(`${API_URL}/photos/${id}`)
+    payload: photo
   };
 }

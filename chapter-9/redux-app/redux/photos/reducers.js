@@ -1,11 +1,11 @@
 import {
-  FETCH_PHOTOS_PENDING,
+  FETCH_PHOTOS,
   FETCH_PHOTOS_FULFILLED,
   FETCH_PHOTOS_REJECTED,
-  ADD_PHOTO_PENDING,
+  ADD_PHOTO,
   ADD_PHOTO_FULFILLED,
   ADD_PHOTO_REJECTED,
-  REMOVE_PHOTO_PENDING,
+  REMOVE_PHOTO,
   REMOVE_PHOTO_FULFILLED,
   REMOVE_PHOTO_REJECTED,
 } from './actions';
@@ -16,46 +16,65 @@ const initialState = {
   didError: false
 };
 
-const reducer = (state = initialState, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_PHOTOS_PENDING:
+    case FETCH_PHOTOS:
       return {
-        isLoading: true
+        ...state,
+        photos: [...action.payload],
       };
-    case FETCH_PHOTOS_FULFILLED:
+    case ADD_PHOTO:
       return {
-        loadedPhotos: action.payload.data,
-        isLoading: false,
-        didError: false
+        ...state,
+        photos: [...state.photos, action.payload],
       };
-    case FETCH_PHOTOS_REJECTED:
+    case REMOVE_PHOTO:
       return {
-        loadedPhotos: [],
-        isLoading: false,
-        didError: true
+        ...state,
+        photos: state.photos.filter(photo => {
+          return photo.id !== action.payload.id
+        })
       };
-
-    case ADD_PHOTO_PENDING:
-    case REMOVE_PHOTO_PENDING:
-      return {
-        isLoading: true
-      };
-    case ADD_PHOTO_FULFILLED:
-    case REMOVE_PHOTO_FULFILLED:
-      return {
-        isLoading: false,
-        didError: false
-      };
-    case ADD_PHOTO_REJECTED:
-    case REMOVE_PHOTO_REJECTED:
-      return {
-        isLoading: false,
-        didError: true
-      };
-
     default:
       return state;
   }
-}
+  // switch (action.type) {
+  //   case FETCH_PHOTOS_PENDING:
+  //     return {
+  //       isLoading: true
+  //     };
+  //   case FETCH_PHOTOS_FULFILLED:
+  //     return {
+  //       loadedPhotos: action.payload.data,
+  //       isLoading: false,
+  //       didError: false
+  //     };
+  //   case FETCH_PHOTOS_REJECTED:
+  //     return {
+  //       loadedPhotos: [],
+  //       isLoading: false,
+  //       didError: true
+  //     };
 
-export default reducer;
+  //   case ADD_PHOTO_PENDING:
+  //   case REMOVE_PHOTO_PENDING:
+  //     return {
+  //       isLoading: true
+  //     };
+  //   case ADD_PHOTO_FULFILLED:
+  //   case REMOVE_PHOTO_FULFILLED:
+  //     return {
+  //       isLoading: false,
+  //       didError: false
+  //     };
+  //   case ADD_PHOTO_REJECTED:
+  //   case REMOVE_PHOTO_REJECTED:
+  //     return {
+  //       isLoading: false,
+  //       didError: true
+  //     };
+
+  //   default:
+  //     return state;
+  // }
+}
