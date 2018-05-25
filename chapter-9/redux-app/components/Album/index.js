@@ -23,14 +23,6 @@ class Album extends Component {
     photos: [],
     loaded: false
   }
-  componentWillReceiveProps(nextProps) {
-    if (this.props.photos !== nextProps.photos) {
-      this.setState({
-        loaded: true,
-        photos: nextProps.photos
-      });
-    }
-  }
 
   componentWillMount() {
     this.props.fetchPhotos();
@@ -44,20 +36,16 @@ class Album extends Component {
       "thumbnailUrl": `http://placehold.it/150/${randomColor().replace('#', '')}`
     };
     this.props.addPhoto(photo);
-    this.props.fetchPhotos();
   }
 
   removePhoto = (id) => {
     this.props.removePhoto(id);
-    setTimeout(() => {
-      this.props.fetchPhotos();
-    }, 100);
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.toolbar}>Album</Text>
+        <Text style={styles.toolbar}>Album {this.props.photos.length}</Text>
           <ScrollView>
             <View style={styles.imageContainer}>
               <TouchableOpacity style={styles.button} onPress={this.addPhoto}>
@@ -114,7 +102,7 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = (state) => {
   return {
-    photos: state.photos.loadedPhotos
+    photos: state.photos.photos
   }
 }
 

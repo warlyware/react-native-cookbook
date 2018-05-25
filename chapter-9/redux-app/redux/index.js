@@ -1,5 +1,5 @@
 import { combineReducers, createStore, applyMiddleware } from 'redux';
-import promiseMiddleware from 'redux-promise-middleware'
+import promiseMiddleware from 'redux-promise-middleware';
 
 import photos from './photos/reducers';
 

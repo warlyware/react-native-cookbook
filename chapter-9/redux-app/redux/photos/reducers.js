@@ -11,28 +11,28 @@ import {
 } from './actions';
 
 const initialState = {
-  loadedPhotos: [],
-  isLoading: false,
-  didError: false
+  photos: []
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_PHOTOS:
+    case FETCH_PHOTOS_FULFILLED:
+      console.log('FETCH_PHOTOS_FULFILLED', action.payload.data);
       return {
         ...state,
-        photos: [...action.payload],
+        photos: [...action.payload.data],
       };
-    case ADD_PHOTO:
+    case ADD_PHOTO_FULFILLED:
       return {
         ...state,
-        photos: [...state.photos, action.payload],
+        photos: [action.payload.data, ...state.photos],
       };
-    case REMOVE_PHOTO:
+    case REMOVE_PHOTO_FULFILLED:
+      console.log('REMOVE_PHOTO_FULFILLED', action.meta.photoId);
       return {
         ...state,
         photos: state.photos.filter(photo => {
-          return photo.id !== action.payload.id
+          return photo.id !== action.meta.photoId
         })
       };
     default:
