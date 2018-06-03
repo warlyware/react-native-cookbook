@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import {
-  ListView,
-  Platform,
   StyleSheet,
   Text,
   View,
+  SafeAreaView,
   ScrollView,
   Image,
-  TouchableOpacity
+  TouchableOpacity,
+  Platform
 } from 'react-native';
 import randomColor from 'randomcolor';
 import { connect } from 'react-redux';
@@ -17,15 +17,14 @@ import {
   removePhoto
 } from '../../redux/photos/actions';
 
-class Album extends Component {
-  state = {
-    dataSource: {},
-    photos: [],
-    loaded: false
-  }
+const android = Platform.OS === 'android' ? { paddingTop: 24 } : {};
 
+
+class Album extends Component {
   componentWillMount() {
-    this.props.fetchPhotos();
+    setTimeout(() => {
+      this.props.fetchPhotos();
+    }, 2000);
   }
 
   addPhoto = () => {
@@ -44,25 +43,25 @@ class Album extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.toolbar}>Album {this.props.photos.length}</Text>
-          <ScrollView>
-            <View style={styles.imageContainer}>
-              <TouchableOpacity style={styles.button} onPress={this.addPhoto}>
-                <Text style={styles.buttonText}>Add Photo</Text>
-              </TouchableOpacity>
-              {this.props.photos ? this.props.photos.map((photo) => {
-                return(
-                  <TouchableOpacity onPress={() => this.removePhoto(photo.id)} key={photo.id}>
-                    <Image style={styles.image}
-                      source={{ uri: photo.url }}
-                    />
-                  </TouchableOpacity>
-                );
-              }) : null}
-            </View>
-          </ScrollView>
-      </View>
+      <SafeAreaView style={[styles.container, android]}>
+        <Text style={styles.toolbar}>Album</Text>
+        <ScrollView>
+          <View style={styles.imageContainer}>
+            <TouchableOpacity style={styles.button} onPress={this.addPhoto}>
+              <Text style={styles.buttonText}>Add Photo</Text>
+            </TouchableOpacity>
+            {this.props.photos ? this.props.photos.map((photo) => {
+              return(
+                <TouchableOpacity onPress={() => this.removePhoto(photo.id)} key={Math.random()}>
+                  <Image style={styles.image}
+                    source={{ uri: photo.url }}
+                  />
+                </TouchableOpacity>
+              );
+            }) : null}
+          </View>
+        </ScrollView>
+      </SafeAreaView>
     );
   }
 };
@@ -102,7 +101,7 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = (state) => {
   return {
-    photos: state.photos.photos
+    photos: state.photos.loadedPhotos
   }
 }
 
