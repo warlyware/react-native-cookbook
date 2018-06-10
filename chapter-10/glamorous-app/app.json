@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "styled-components-app",
+    "name": "glamorous-app",
     "description": "This project is really great.",
-    "slug": "styled-components-app",
+    "slug": "glamorous-app",
     "privacy": "public",
     "sdkVersion": "27.0.0",
     "platforms": ["ios", "android"],

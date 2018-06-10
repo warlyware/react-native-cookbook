@@ -3,8 +3,8 @@
   "private": true,
   "dependencies": {
     "expo": "^27.0.1",
+    "glamorous-native": "^1.4.0",
     "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz",
-    "styled-components": "^3.3.2"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-27.0.0.tar.gz"
   }
 }
