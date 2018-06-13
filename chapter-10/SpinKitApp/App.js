@@ -1,38 +1,61 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
-  Text,
-  View
+  View,
+  TouchableOpacity,
+  Text
 } from 'react-native';
+import Spinner from 'react-native-spinkit';
+import randomColor from 'randomcolor';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+const types = [
+  'Plane',
+  'Bounce',
+  'Wave',
+  'WanderingCubes',
+  'Pulse',
+  'ChasingDots',
+  'ThreeBounce',
+  'Circle',
+  '9CubeGrid',
+  'FadingCircleAlt',
+  'FadingCircle',
+  'CircleFlip',
+  'WordPress',
+  'Arc',
+  'ArcAlt'
+];
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
+  state = {
+    isVisible: true,
+    type: types[0],
+    typeIndex: 0,
+    color: randomColor()
+  }
+
+  changeSpinner = () => {
+    const { typeIndex } = this.state;
+    let nextType = typeIndex === types.length - 1 ? 0 : typeIndex + 1;
+    this.setState({
+      color: randomColor(),
+      typeIndex: nextType,
+      type: types[nextType]
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+        <TouchableOpacity onPress={this.changeSpinner}>
+          <Spinner
+            isVisible={this.state.isVisible}
+            size={120}
+            type={this.state.type}
+            color={this.state.color}
+          />
+        </TouchableOpacity>
+        <Text style={styles.text}>{this.state.type}</Text>
       </View>
     );
   }
@@ -43,16 +66,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#fff',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  text: {
+    paddingTop: 40,
+    fontSize: 25
+  }
 });
