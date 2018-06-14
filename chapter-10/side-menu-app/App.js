@@ -1,23 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity
+} from 'react-native';
 import SideMenu from 'react-native-side-menu';
+
 import Menu from './components/Menu';
 
 export default class App extends React.Component {
   state = {
     isOpen: false,
-    selectedItem: 'green'
+    selectedBackgroundColor: 'green'
   }
 
-  onMenuItemSelected = item => {
+  changeBackgroundColor = color => {
     this.setState({
       isOpen: false,
-      selectedItem: item,
+      selectedBackgroundColor: color,
     });
   }
 
   render() {
-    const menu = <Menu onItemSelected={this.onMenuItemSelected} />
+    const menu = <Menu onColorSelected={this.changeBackgroundColor} />;
 
     return (
       <SideMenu
@@ -26,7 +32,8 @@ export default class App extends React.Component {
         onChange={(isOpen) => this.setState({ isOpen })}
       >
         <View style={[
-          styles.container, {backgroundColor: this.state.selectedItem}
+          styles.container,
+          { backgroundColor: this.state.selectedBackgroundColor }
         ]}>
           <TouchableOpacity
             style={styles.button}

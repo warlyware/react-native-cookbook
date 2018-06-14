@@ -9,41 +9,41 @@ import {
 
 const window = Dimensions.get('window');
 
-export default ({ onItemSelected }) => {
+const Menu = ({ onColorSelected }) => {
   return (
-    <View scrollsToTop={false} style={styles.menu}>
+    <View style={styles.menu}>
       <Text style={styles.heading}>Select a Color</Text>
-      <TouchableOpacity onPress={() => onItemSelected('green')}>
+      <TouchableOpacity onPress={() => onColorSelected('green')}>
         <Text style={styles.item}>
           Green
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('blue')}>
+      <TouchableOpacity onPress={() => onColorSelected('blue')}>
         <Text style={styles.item}>
           Blue
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('orange')}>
+      <TouchableOpacity onPress={() => onColorSelected('orange')}>
         <Text style={styles.item}>
           Orange
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('pink')}>
+      <TouchableOpacity onPress={() => onColorSelected('pink')}>
         <Text style={styles.item}>
           Pink
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('cyan')}>
+      <TouchableOpacity onPress={() => onColorSelected('cyan')}>
         <Text style={styles.item}>
           Cyan
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('yellow')}>
+      <TouchableOpacity onPress={() => onColorSelected('yellow')}>
         <Text style={styles.item}>
           Yellow
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onItemSelected('purple')}>
+      <TouchableOpacity onPress={() => onColorSelected('purple')}>
         <Text style={styles.item}>
           Purple
         </Text>
@@ -73,3 +73,5 @@ const styles = StyleSheet.create({
     color: '#f6f6f6'
   }
 });
+
+export default Menu;
