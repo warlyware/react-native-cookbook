@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Modal from 'react-native-modalbox';
-
 import {
   Text,
   StyleSheet,
@@ -8,10 +7,9 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     isOpen: false,
-    isDisabled: false,
   };
 
   onClose = () => {
@@ -23,12 +21,15 @@ export default class App extends React.Component {
   }
 
   openModal1 = () => {
-    this.refs.modal1.open()
+    this.refs.modal1.open();
   }
 
   openModal2 = () => {
-    this.refs.modal2.open()
     this.setState({ isOpen: true });
+  }
+
+  onCloseModal2 = () => {
+    this.setState({ isOpen: false });
   }
 
   renderModal1 = () => {
@@ -36,7 +37,6 @@ export default class App extends React.Component {
       <Modal
         style={[styles.modal, styles.modal1]}
         ref={'modal1'}
-        onClosed={this.onClose}
         onOpened={this.onOpen}
       >
         <Text style={styles.modalText}>
@@ -50,8 +50,9 @@ export default class App extends React.Component {
     return(
       <Modal
         style={[styles.modal, styles.modal2]}
-        ref={'modal2'}
         position={'bottom'}
+        onOpened={this.onOpen}
+        onClosed={this.onCloseModal2}
         isOpen={this.state.isOpen}
       >
         <Text style={styles.modalText}>
@@ -93,7 +94,6 @@ export default class App extends React.Component {
       </View>
     );
   }
-
 }
 
 const styles = StyleSheet.create({
@@ -104,19 +104,20 @@ const styles = StyleSheet.create({
     flex: 1
   },
   modal: {
-    height: 300,
     width: 300,
     justifyContent: 'center',
     alignItems: 'center'
   },
   modal1: {
+    height: 200,
     backgroundColor: "#4AC9B0"
   },
   modal2: {
+    height: 300,
     backgroundColor: "#6CCEFF"
   },
   modalText: {
-    fontSize: 16,
+    fontSize: 25,
     padding: 10,
     color: '#474747'
   },
@@ -124,7 +125,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#000',
     padding: 16,
     borderRadius: 10,
-    marginBottom: 10
+    marginTop: 20
   },
   buttonText: {
     fontSize: 30,
