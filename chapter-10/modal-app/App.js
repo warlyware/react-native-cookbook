@@ -1,21 +1,133 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import Modal from 'react-native-modalbox';
+
+import {
+  Text,
+  StyleSheet,
+  View,
+  TouchableOpacity
+} from 'react-native';
 
 export default class App extends React.Component {
-  render() {
+  state = {
+    isOpen: false,
+    isDisabled: false,
+  };
+
+  onClose = () => {
+    console.log('modal is closed');
+  }
+
+  onOpen = () => {
+    console.log('modal is open');
+  }
+
+  openModal1 = () => {
+    this.refs.modal1.open()
+  }
+
+  openModal2 = () => {
+    this.refs.modal2.open()
+    this.setState({ isOpen: true });
+  }
+
+  renderModal1 = () => {
+    return(
+      <Modal
+        style={[styles.modal, styles.modal1]}
+        ref={'modal1'}
+        onClosed={this.onClose}
+        onOpened={this.onOpen}
+      >
+        <Text style={styles.modalText}>
+          Hello from Modal 1
+        </Text>
+      </Modal>
+    )
+  }
+
+  renderModal2 = () => {
+    return(
+      <Modal
+        style={[styles.modal, styles.modal2]}
+        ref={'modal2'}
+        position={'bottom'}
+        isOpen={this.state.isOpen}
+      >
+        <Text style={styles.modalText}>
+          Hello from Modal 2
+        </Text>
+        <TouchableOpacity
+          onPress={() => this.setState({isOpen: false})}
+          style={styles.button}
+        >
+          <Text style={styles.buttonText}>
+            OK
+          </Text>
+        </TouchableOpacity>
+      </Modal>
+    )
+  }
+
+  render = () => {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <TouchableOpacity
+          onPress={this.openModal1}
+          style={styles.button}
+        >
+          <Text style={styles.buttonText}>
+            Open Modal 1
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={this.openModal2}
+          style={styles.button}
+        >
+          <Text style={styles.buttonText}>
+            Open Modal 2
+          </Text>
+        </TouchableOpacity>
+        {this.renderModal1()}
+        {this.renderModal2()}
       </View>
     );
   }
+
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: '#f6f6f6',
     justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1
   },
+  modal: {
+    height: 300,
+    width: 300,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  modal1: {
+    backgroundColor: "#4AC9B0"
+  },
+  modal2: {
+    backgroundColor: "#6CCEFF"
+  },
+  modalText: {
+    fontSize: 16,
+    padding: 10,
+    color: '#474747'
+  },
+  button: {
+    backgroundColor: '#000',
+    padding: 16,
+    borderRadius: 10,
+    marginBottom: 10
+  },
+  buttonText: {
+    fontSize: 30,
+    color: '#fff'
+  }
 });
