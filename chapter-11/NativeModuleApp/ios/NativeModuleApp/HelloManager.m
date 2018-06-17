@@ -12,12 +12,13 @@
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(
-  greetUser: (NSString *)name isAdmin:(BOOL *)isAdmin callback: (RCTResponseSenderBlock) callback) {
-    NSString *greeting =
+  greetUser: (NSString *)name isAdmin:(BOOL *)isAdmin callback: (RCTResponseSenderBlock) callback
+) {
+  NSString *greeting =
     [NSString stringWithFormat:
      @"Welcome %@, you %@ an administrator.", name, isAdmin ? @"are" : @"are not"];
-  
-    callback(@[greeting]);
-  }
+
+  callback(@[greeting]);
+}
 
 @end

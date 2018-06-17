@@ -12,23 +12,23 @@ import Button from 'react-native-button';
 const HelloManager = NativeModules.HelloManager;
 
 export default class App extends Component {
-  componentWillMount() {
-    this.setState({
-      greetingMessage: undefined
-    });
+  state = {
+    greetingMessage: null,
+    userName: null,
+    isAdmin: false
   }
 
-  greetUserCallback = () => {
+  greetUser = () => {
     HelloManager.greetUser(
       this.state.userName,
       this.state.isAdmin,
-      this.displayResult
+      this.displayResults
     );
   }
 
-  displayResult = (result) => {
+  displayResults = (results) => {
     this.refs.userName.blur();
-    this.setState({ greetingMessage: result });
+    this.setState({ greetingMessage: results });
   }
 
   render() {
@@ -42,7 +42,7 @@ export default class App extends Component {
           autoCorrect={false}
           style={styles.inputField}
           placeholder="User Name"
-          onChangeText={(text) => this.setState({ userName: text }) }
+          onChangeText={(text) => this.setState({ userName: text })}
         />
         <Text style={styles.label}>
           Admin
@@ -59,7 +59,7 @@ export default class App extends Component {
             styles.buttonStyle,
             !this.state.userName ? styles.disabled : null
           ]}
-          onPress={this.greetUserCallback}
+          onPress={this.greetUser}
         >
             Greet (callback)
         </Button>
@@ -80,16 +80,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
   inputField:{
     padding: 20,
