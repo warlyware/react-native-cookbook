@@ -8,28 +8,15 @@ import {
   Switch,
   DeviceEventEmitter
 } from 'react-native';
-
 import Button from 'react-native-button';
 
-const {
-  HelloManager
-} = NativeModules;
+const { HelloManager } = NativeModules;
 
 export default class App extends Component {
   state = {
     userName: null,
     greetingMessage: null,
     isAdmin: false
-  }
-
-  componentWillMount() {
-    this.subscription = DeviceEventEmitter.addListener('GreetingResponse', (response) => {
-      this.updateGreetingMessage(response.greeting);
-    });
-  }
-
-  componentWillUnmount() {
-    this.subscription.remove();
   }
 
   updateGreetingMessage = (result) => {
