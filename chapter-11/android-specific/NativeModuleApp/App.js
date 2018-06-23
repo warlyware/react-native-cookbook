@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
   NativeModules,
   TextInput,
   Switch,
-  DeviceEventEmitter,
-  TouchableWithoutFeedback
+  DeviceEventEmitter
 } from 'react-native';
 
 import Button from 'react-native-button';
@@ -18,13 +16,15 @@ const {
 } = NativeModules;
 
 export default class App extends Component {
+  state = {
+    userName: null,
+    greetingMessage: null,
+    isAdmin: false
+  }
+
   componentWillMount() {
     this.subscription = DeviceEventEmitter.addListener('GreetingResponse', (response) => {
-      this.displayResult(response.greeting);
-    });
-
-    this.setState({
-      greetingMessage: undefined
+      this.updateGreetingMessage(response.greeting);
     });
   }
 
@@ -32,75 +32,59 @@ export default class App extends Component {
     this.subscription.remove();
   }
 
-  displayResult = (result) => {
-    this.refs.userName.blur();
+  updateGreetingMessage = (result) => {
     this.setState({ greetingMessage: result });
   }
 
-  onBackgroundPress = () => {
+  greetUser = () => {
     this.refs.userName.blur();
-  }
-
-  greetUserCallback = () => {
-    const state = this.state;
-    HelloManager.greetUser(state.userName, state.isAdmin, this.displayResult);
-  }
-
-  greetUserPromise = () => {
-    const state = this.state;
-    const promise = HelloManager.greetUserWithPromises(state.userName, state.isAdmin);
-    promise.then(this.displayResult);
-  }
-
-  greetUserEvent = () => {
-    const state = this.state;
-    HelloManager.greetUserWithEvent(state.userName, !!state.isAdmin);
+    HelloManager.greetUser(
+      this.state.userName,
+      this.state.isAdmin,
+      this.updateGreetingMessage
+    );
   }
 
   render() {
     return (
-      <TouchableWithoutFeedback onPress={this.onBackgroundPress}>
-        <View style={styles.container}>
-          <View style={styles.header}>
-            <Text style={styles.headerText}>Android Native Modules</Text>
-          </View>
-          <View style={styles.inputContainer}>
-            <TextInput
-              ref="userName"
-              autoCorrect={false}
-              style={styles.inputField}
-              placeholder="User Name"
-              onChangeText={(text) => this.setState({ userName: text }) }
-            />
-            <Text style={styles.label}>Admin</Text>
-            <Switch style={styles.radio} onValueChange={(value) => this.setState({ isAdmin: value }) } value={this.state.isAdmin}/>
-          </View>
-          <View style={styles.flexContainer}>
-            <Button
-              containerStyle={styles.buttonContainer}
-              style={styles.buttonStyle}
-              onPress={this.greetUserCallback}>
-              Greet (callback)
-            </Button>
-            <Button
-              containerStyle={styles.buttonContainer}
-              style={styles.buttonStyle}
-              onPress={this.greetUserPromise}>
-              Greet (promise)
-            </Button>
-            <Button
-              containerStyle={styles.buttonContainer}
-              style={styles.buttonStyle}
-              onPress={this.greetUserEvent}>
-              Greet (events)
-            </Button>
-          </View>
-          <View style={styles.flexContainer}>
-            <Text>Response: </Text>
-            <Text>{this.state.greetingMessage}</Text>
-          </View>
-        </View>
-      </TouchableWithoutFeedback>
+      <View style={styles.container}>
+        <Text style={styles.label}>
+          Enter User Name
+        </Text>
+        <TextInput
+          ref="userName"
+          autoCorrect={false}
+          style={styles.inputField}
+          placeholder="User Name"
+          onChangeText={(text) => this.setState({ userName: text }) }
+        />
+        <Text style={styles.label}>
+          Admin
+        </Text>
+        <Switch
+          style={styles.radio}
+          onValueChange={
+            value => this.setState({ isAdmin: value })
+          }
+          value={this.state.isAdmin}
+        />
+       <Button
+          disabled={!this.state.userName}
+          style={[
+            styles.buttonStyle,
+            !this.state.userName ? styles.disabled : null
+          ]}
+          onPress={this.greetUser}
+        >
+          Greet
+        </Button>
+        <Text style={styles.label}>
+          Response:
+        </Text>
+        <Text style={styles.message}>
+          {this.state.greetingMessage}
+        </Text>
+      </View>
     );
   }
 }
@@ -112,14 +96,31 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  inputField:{
+    padding: 20,
+    fontSize: 30,
+    width: 200
   },
-  instructions: {
+  label: {
+    fontSize: 18,
+    marginTop: 18,
     textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
+  radio: {
+    marginBottom: 20
+  },
+  buttonStyle: {
+    padding: 20,
+    backgroundColor: '#1DA1F2',
+    color: '#fff',
+    fontSize: 18
+  },
+  message: {
+    fontSize: 22,
+    marginLeft: 50,
+    marginRight: 50,
+  },
+  disabled: {
+    backgroundColor: '#3C3C3C'
+  }
 });

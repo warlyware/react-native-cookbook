@@ -61,7 +61,7 @@ export default class App extends Component {
           ]}
           onPress={this.greetUser}
         >
-            Greet (callback)
+          Greet
         </Button>
         <Text style={styles.label}>
           Response:
