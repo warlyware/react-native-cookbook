@@ -18,6 +18,11 @@ export default class Button extends Component {
   }
 }
 
-var ButtonView = requireNativeComponent('ButtonView', Button, {
-  nativeOnly: { onChange: true }
-});
+const ButtonView = requireNativeComponent(
+  'ButtonView',
+  Button, {
+    nativeOnly: {
+      onChange: true
+    }
+  }
+);

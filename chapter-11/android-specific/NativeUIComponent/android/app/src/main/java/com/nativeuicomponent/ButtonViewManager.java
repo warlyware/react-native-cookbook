@@ -11,11 +11,7 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
 
-/**
- * Created by dan on 6/23/18.
- */
-
-public class ButtonViewManager extends SimpleViewManager<Button> implements View.OnClickListener{
+public class ButtonViewManager extends SimpleViewManager<Button> implements View.OnClickListener {
   @Override
   public String getName() {
     return "ButtonView";
