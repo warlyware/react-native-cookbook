@@ -6,35 +6,34 @@ import {
   View
 } from 'react-native';
 
-export default class ApplicationState extends Component {
+export default class App extends Component {
   previousAppState = null;
-  currentAppState = null;
+  currentAppState = 'active';
+  state = {
+    statusMessage = 'Welcome!'
+  }
 
-  onAppStateChange = (appState) => {
-    let appStatus;
+  componentWillMount() {
+    AppState.addEventListener('change', this.handleAppStateChange);
+  }
+
+  handleAppStateChange = (appState) => {
+    let statusMessage;
 
     this.previousAppState = this.currentAppState;
     this.currentAppState = appState;
     switch(appState) {
       case 'inactive':
-        appStatus = "Good Bye";
+        statusMessage = "Good Bye.";
         break;
       case 'background':
-        appStatus = "I'm Hidden";
+        statusMessage = "App Is Hidden...";
         break;
       case 'active':
-        appStatus = 'Welcome Back!'
+        statusMessage = 'Welcome Back!'
         break;
     }
-    this.setState({ appStatus });
-  }
-
-  componentWillMount() {
-    this.currentAppState = 'active';
-    this.setState({
-      appStatus: 'Welcome!'
-    });
-    AppState.addEventListener('change', this.onAppStateChange);
+    this.setState({ statusMessage });
   }
 
   render() {
@@ -53,7 +52,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#fff',
   },
   welcome: {
     fontSize: 40,
