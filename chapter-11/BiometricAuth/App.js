@@ -4,9 +4,7 @@ import {
   Text,
   View
 } from 'react-native';
-
 import Button from 'react-native-button';
-
 import TouchID from 'react-native-touch-id';
 
 export default class App extends Component {
@@ -14,8 +12,8 @@ export default class App extends Component {
     authStatus: null
   }
 
-  onButtonPress = () => {
-    TouchID.authenticate('React Native Cookbook')
+  authenticate = () => {
+    TouchID.authenticate('Access secret information!')
       .then(this.handleAuthSuccess)
       .catch(this.handleAuthFailure);
   }
@@ -38,10 +36,10 @@ export default class App extends Component {
         <Button
           containerStyle={styles.buttonContainer}
           style={styles.button}
-          onPress={this.onButtonPress}>
+          onPress={this.authenticate}>
             Authenticate
         </Button>
-        <Text style={styles.instructions}>Authentication Status</Text>
+        <Text style={styles.label}>Authentication Status</Text>
         <Text style={styles.welcome}>{this.state.authStatus}</Text>
       </View>
     );
@@ -60,7 +58,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
-  instructions: {
+  label: {
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
@@ -71,7 +69,6 @@ const styles = StyleSheet.create({
     margin: 5,
     height: 40,
     overflow: 'hidden',
-    borderRadius: 4,
     backgroundColor: '#FF5722'
   },
   button: {
