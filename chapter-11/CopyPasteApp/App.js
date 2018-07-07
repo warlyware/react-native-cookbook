@@ -6,24 +6,20 @@ import {
   Clipboard,
   TextInput
 } from 'react-native';
-
 import Button from 'react-native-button';
 
-import ClipboardText from './components/ClipboardText';
-
 export default class App extends Component {
-  componentWillMount() {
-    this.getClipboardContent =
-    this.getClipboardContent.bind(this);
-
-    this.setState({
-      clipboardContent : undefined
-    });
+  state = {
+    clipboardContent: null
   }
 
-  async getClipboardContent() {
-    const clipboardContent = await Clipboard.getString();
+  copyToClipboard = () => {
+    const sourceText = this.refs.sourceText.props.children;
+    Clipboard.setString(sourceText);
+  }
 
+  getClipboardContent = async () => {
+    const clipboardContent = await Clipboard.getString();
     this.setState({
       clipboardContent
     });
@@ -33,22 +29,24 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.instructions}>
-          Tap and Hold the next line to copy it to the Clipboard
+          Tap and Hold the next line to copy it to the Clipboard:
         </Text>
-        <ClipboardText
-          useTooltip={true}
-          style={styles.header}
+        <Text
+          ref="sourceText"
+          onLongPress={this.copyToClipboard}
         >
           React Native Cookbook
-        </ClipboardText>
+        </Text>
         <Text style={styles.instructions}>
-          Input some text into the TextInput below and Cut/Copy as you normally would
+          Input some text into the TextInput below and Cut/Copy as you normally would:
         </Text>
         <TextInput style={styles.textInput} />
         <View style={styles.row}>
           <Text style={styles.rowText}>
             Clipboard Contents:
           </Text>
+        </View>
+        <View style={styles.row}>
           <Text style={styles.content}>
             {this.state.clipboardContent}
           </Text>
@@ -56,7 +54,8 @@ export default class App extends Component {
         <Button
           containerStyle={styles.buttonContainer}
           style={styles.buttonStyle}
-          onPress={this.getClipboardContent}>
+          onPress={this.getClipboardContent}
+        >
             Paste Clipboard
         </Button>
       </View>
@@ -71,17 +70,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  header: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
   instructions: {
     textAlign: 'center',
     color: '#333333',
     margin: 10,
   },
   content: {
+    fontSize: 18,
     marginLeft : 5,
     marginRight : 5
   },
