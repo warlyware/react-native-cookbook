@@ -13,16 +13,13 @@ const BackgroundTaskManager = NativeModules.BackgroundTaskManager;
 export default class App extends Component {
   state = {
     backgroundTaskStatus: 'Not Started',
-    doNothingCount: 0
+    counter: 0
   }
 
   componentWillMount = () => {
     this.subscription = NativeAppEventEmitter.addListener(
       'backgroundProgress',
-      (e) => {
-        const backgroundTaskStatus = e.status;
-        this.setState({backgroundTaskStatus});
-      }
+      event => this.setState({ backgroundTaskStatus: event.status })
     );
   }
 
@@ -30,13 +27,13 @@ export default class App extends Component {
     this.subscription.remove();
   }
 
-  onButtonPress = () => {
+  runBackgroundTask = () => {
     BackgroundTaskManager.loadInBackground();
   }
 
-  onDoNothingPress = () => {
+  increaseCounter = () => {
     this.setState({
-      doNothingCount: this.state.doNothingCount + 1
+      counter: this.state.counter + 1
     });
   }
 
@@ -46,7 +43,7 @@ export default class App extends Component {
         <Button
           containerStyle={styles.buttonContainer}
           style={styles.buttonStyle}
-          onPress={this.onButtonPress}>
+          onPress={this.runBackgroundTask}>
             Run Task
         </Button>
         <Text style={styles.instructions}>
@@ -55,9 +52,8 @@ export default class App extends Component {
         <Text style={styles.welcome}>
           {this.state.backgroundTaskStatus}
         </Text>
-
         <Text style={styles.instructions}>
-          Pressing "Do Nothing" shows that the task is not blocking the main thread
+          Pressing "Increase Conter" button shows that the task is not blocking the main thread
         </Text>
         <Button
           containerStyle={[
@@ -65,16 +61,15 @@ export default class App extends Component {
             styles.altButtonContainer
           ]}
           style={styles.buttonStyle}
-          onPress={this.onDoNothingPress}
+          onPress={this.increaseCounter}
         >
-            Do Nothing
+            Increase Counter
         </Button>
-
         <Text style={styles.instructions}>
-          Times "Do Nothing" Pressed:
+          Current Count:
         </Text>
         <Text style={styles.welcome}>
-          {this.state.doNothingCount}
+          {this.state.counter}
         </Text>
       </View>
     );
