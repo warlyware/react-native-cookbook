@@ -10,7 +10,10 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-@implementation AppDelegate
+@implementation AppDelegate {
+  UIImageView *imageView;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -30,6 +33,19 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application {
+  imageView = [[UIImageView alloc] initWithFrame:[self.window frame]];
+  [imageView setImage:[UIImage imageNamed:@"hidden.jpg"]];
+  [self.window addSubview:imageView];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+  if(imageView != nil) {
+    [imageView removeFromSuperview];
+    imageView = nil;
+  }
 }
 
 @end
