@@ -1,29 +1,51 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+  NativeModules,
+  NativeAppEventEmitter
+} from 'react-native';
+import Button from 'react-native-button';
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+const MediaManager = NativeModules.MediaManager;
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+export default class App extends Component {
+  state = {
+    currentSong: null
+  }
 
-type Props = {};
-export default class App extends Component<Props> {
+  componentWillMount() {
+    this.subscription = NativeAppEventEmitter.addListener(
+      'SongPlaying',
+      this.updateCurrentlyPlaying
+    );
+  }
+
+  componentWillUnmount = () => {
+    this.subscription.remove();
+  }
+
+  updateCurrentlyPlaying = (currentSong) => {
+    this.setState({ currentSong });
+  }
+
+  showSongs() {
+    MediaManager.showSongs();
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Button
+          containerStyle={styles.buttonContainer}
+          style={styles.buttonStyle}
+          onPress={this.showSongs}>
+            Pick Song
+        </Button>
+
+        <Text style={styles.instructions}>Song Playing:</Text>
+        <Text style={styles.welcome}>{this.state.songPlaying}</Text>
       </View>
     );
   }
@@ -46,4 +68,17 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  buttonContainer: {
+    width: 150,
+    padding: 10,
+    margin: 5,
+    height: 40,
+    overflow: 'hidden',
+    borderRadius: 4,
+    backgroundColor: '#3B5998'
+  },
+  buttonStyle: {
+    fontSize: 16,
+    color: '#fff'
+  }
 });
