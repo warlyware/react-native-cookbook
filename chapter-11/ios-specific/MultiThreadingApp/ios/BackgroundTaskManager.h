@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <dispatch/dispatch.h>
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTLog.h>
 
 @interface BackgroundTaskManager : NSObject <RCTBridgeModule> {
   dispatch_queue_t backgroundQueue;

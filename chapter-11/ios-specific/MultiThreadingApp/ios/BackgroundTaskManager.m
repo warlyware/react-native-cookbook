@@ -6,8 +6,8 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 #import "BackgroundTaskManager.h"
-#import "RCTBridge.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
 
 @implementation BackgroundTaskManager
 
