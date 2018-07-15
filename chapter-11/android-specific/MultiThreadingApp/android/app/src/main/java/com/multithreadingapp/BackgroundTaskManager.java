@@ -1,9 +1,5 @@
 package com.multithreadingapp;
 
-/**
- * Created by dan on 7/8/18.
- */
-
 import android.os.AsyncTask;
 
 import com.facebook.react.bridge.Arguments;
@@ -13,11 +9,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
-/**
- * Created by stan229 on 7/21/16.
- */
 public class BackgroundTaskManager extends ReactContextBaseJavaModule {
-
   public BackgroundTaskManager(ReactApplicationContext reactApplicationContext) {
     super(reactApplicationContext);
   }
@@ -50,16 +42,16 @@ public class BackgroundTaskManager extends ReactContextBaseJavaModule {
     }
 
     @Override
-    protected void onPostExecute(String s) {
+    protected void onProgressUpdate(String... values) {
       WritableMap params = Arguments.createMap();
-      params.putString("status", "Done");
+      params.putString("status", "Loading");
       sendEvent("backgroundProgress", params);
     }
 
     @Override
-    protected void onProgressUpdate(String... values) {
+    protected void onPostExecute(String s) {
       WritableMap params = Arguments.createMap();
-      params.putString("status", "Loading");
+      params.putString("status", "Done");
       sendEvent("backgroundProgress", params);
     }
   }

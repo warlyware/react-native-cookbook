@@ -6,8 +6,13 @@
 //  Copyright © 2018 Facebook. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface MediaManager : NSObject
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
 
+@interface MediaManager : NSObject<RCTBridgeModule, MPMediaPickerControllerDelegate>
+
+@property (nonatomic, retain) MPMediaPickerController *mediaPicker;
+@property (nonatomic, retain) MPMusicPlayerController *musicPlayer;
 @end
