@@ -45,7 +45,7 @@ export default class App extends Component {
         </Button>
 
         <Text style={styles.instructions}>Song Playing:</Text>
-        <Text style={styles.welcome}>{this.state.songPlaying}</Text>
+        <Text style={styles.welcome}>{this.state.currentSong}</Text>
       </View>
     );
   }

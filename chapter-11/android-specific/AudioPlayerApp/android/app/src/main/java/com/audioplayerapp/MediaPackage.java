@@ -1,9 +1,5 @@
 package com.audioplayerapp;
 
-/**
- * Created by dan on 7/8/18.
- */
-
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;

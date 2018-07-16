@@ -1,9 +1,5 @@
 package com.audioplayerapp;
 
-/**
- * Created by dan on 7/8/18.
- */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.media.AudioManager;
@@ -21,7 +17,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 public class MediaManager extends ReactContextBaseJavaModule implements ActivityEventListener {
-
   private MediaPlayer mediaPlayer = null;
   private MediaMetadataRetriever mediaMetadataRetriever = null;
 
@@ -91,5 +86,4 @@ public class MediaManager extends ReactContextBaseJavaModule implements Activity
       ex.printStackTrace();
     }
   }
-
 }
