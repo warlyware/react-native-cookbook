@@ -1,3 +1,4 @@
 node_modules/
 Pods/
 *.log
+ios/build/

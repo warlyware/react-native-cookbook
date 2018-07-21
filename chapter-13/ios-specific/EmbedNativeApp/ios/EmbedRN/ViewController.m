@@ -31,7 +31,7 @@
 
 - (IBAction)openRNAppButtonPressed:(id)sender {
     NSURL *jsCodeLocation = [NSURL
-                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
+                             URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
                          moduleName        : @"EmbedApp"
@@ -44,7 +44,7 @@
 }
 - (IBAction)openRNAppEmbeddedButtonPressed:(id)sender {
     NSURL *jsCodeLocation = [NSURL
-                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
+                             URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
                          moduleName        : @"EmbedApp"
