@@ -26,7 +26,7 @@
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge {
     NSURL *jsCodeLocation = [NSURL
-                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
+                             URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
     return jsCodeLocation;
 }
 
@@ -50,7 +50,7 @@
     
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBridge :_bridge
-                      moduleName        : @"EmbedApp"
+                      moduleName        : @"EmbedAppComm"
                       initialProperties : props];
     
     isRNRunning = true;

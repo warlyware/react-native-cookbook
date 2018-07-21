@@ -18,23 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-zZ-gtJ">
-                                <rect key="frame" x="68" y="191" width="238" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Open Embedded React Native App"/>
-                                <connections>
-                                    <action selector="openRNAppEmbeddedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbO-Qb-Nxq"/>
-                                </connections>
-                            </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Auz-SI-O1Y">
-                                <rect key="frame" x="68" y="261" width="240" height="219"/>
+                                <rect key="frame" x="68" y="318" width="240" height="105"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="I4f-No-KAg" kind="embed" identifier="embed" id="q8x-gk-gQe"/>
                                 </connections>
                             </containerView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cz4-h7-D73" userLabel="userNameField">
-                                <rect key="frame" x="176" y="50" width="132" height="30"/>
+                                <rect key="frame" x="176" y="121" width="132" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -44,12 +36,20 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvJ-kt-WFI">
-                                <rect key="frame" x="68" y="55" width="79" height="21"/>
+                                <rect key="frame" x="68" y="126" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-zZ-gtJ">
+                                <rect key="frame" x="68" y="219" width="238" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Open Embedded React Native App"/>
+                                <connections>
+                                    <action selector="openRNAppEmbeddedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbO-Qb-Nxq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -67,7 +67,7 @@
             <objects>
                 <viewController id="I4f-No-KAg" customClass="EmbedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wU4-Ih-9fN">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="219"/>
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="105"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="13N-px-7Fc"/>

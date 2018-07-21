@@ -3,7 +3,8 @@ import {
   AppRegistry,
   StyleSheet,
   View,
-  Text
+  Text,
+  NativeAppEventEmitter
 } from 'react-native';
 
 class EmbedAppComm extends Component {
