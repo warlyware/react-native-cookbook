@@ -35,10 +35,10 @@
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Auz-SI-O1Y">
-                                <rect key="frame" x="68" y="261" width="240" height="334"/>
+                                <rect key="frame" x="68" y="261" width="240" height="219"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="I4f-No-KAg" kind="embed" id="wL7-4i-BUb"/>
+                                    <segue destination="I4f-No-KAg" kind="embed" identifier="embed" id="q8x-gk-gQe"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="I4f-No-KAg" customClass="EmbedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wU4-Ih-9fN">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="334"/>
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="219"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>

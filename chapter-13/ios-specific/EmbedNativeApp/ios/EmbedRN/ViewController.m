@@ -34,7 +34,7 @@
                              URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
-                         moduleName        : @"EmbedApp"
+                         moduleName        : @"EmbedNativeApp"
                          initialProperties : nil
                           launchOptions    : nil];
     
@@ -47,7 +47,7 @@
                              URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
-                         moduleName        : @"EmbedApp"
+                         moduleName        : @"EmbedNativeApp"
                          initialProperties : nil
                           launchOptions    : nil];
     
