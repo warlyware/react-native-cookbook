@@ -21,17 +21,23 @@
                                 <rect key="frame" x="51" y="76" width="273" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Open React Native App"/>
+                                <connections>
+                                    <action selector="openRNAppButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qc-Jb-22Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adm-mE-0Gd">
                                 <rect key="frame" x="51" y="178" width="273" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Open React Native App (Embedded)"/>
+                                <connections>
+                                    <action selector="openRNAppEmbeddedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4l-aI-qjI"/>
+                                </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpq-9z-ZSQ">
                                 <rect key="frame" x="67" y="276" width="240" height="230"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="TDS-bk-qem" kind="embed" id="A7b-sh-Gbe"/>
+                                    <segue destination="TDS-bk-qem" kind="embed" identifier="embed" id="A7b-sh-Gbe"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -43,18 +49,20 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Embedded View Controller-->
         <scene sceneID="h2w-LM-irs">
             <objects>
-                <viewController id="TDS-bk-qem" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="embed" id="TDS-bk-qem" customClass="EmbeddedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eUn-l8-xzb">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="230"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DH6-fX-1Ca"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcT-Jq-P6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="86" y="-373"/>
         </scene>
     </scenes>
 </document>

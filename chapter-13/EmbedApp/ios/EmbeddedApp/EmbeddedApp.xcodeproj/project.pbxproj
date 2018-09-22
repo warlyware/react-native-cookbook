@@ -15,6 +15,7 @@
 		376E8B5E2156DA43002BDE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 376E8B5D2156DA43002BDE0B /* main.m */; };
 		376E8B682156DA43002BDE0B /* EmbeddedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376E8B672156DA43002BDE0B /* EmbeddedAppTests.m */; };
 		376E8B732156DA44002BDE0B /* EmbeddedAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376E8B722156DA44002BDE0B /* EmbeddedAppUITests.m */; };
+		3770A4C02156DD82000A91A5 /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770A4BF2156DD82000A91A5 /* EmbeddedViewController.m */; };
 		747F0668AD456B0402CF519D /* libPods-EmbeddedApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7FF29681CD97EB12DFB188 /* libPods-EmbeddedApp.a */; };
 		91C560E38BB01AE86FAD21A2 /* libPods-EmbeddedAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427FB8498FB74AD0B5D5C197 /* libPods-EmbeddedAppUITests.a */; };
 		9F20F5628ED4FBBFCAE9F33F /* libPods-EmbeddedAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37150496FE239B59EB31808C /* libPods-EmbeddedAppTests.a */; };
@@ -57,6 +58,8 @@
 		376E8B6E2156DA44002BDE0B /* EmbeddedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbeddedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376E8B722156DA44002BDE0B /* EmbeddedAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedAppUITests.m; sourceTree = "<group>"; };
 		376E8B742156DA44002BDE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3770A4BE2156DD82000A91A5 /* EmbeddedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
+		3770A4BF2156DD82000A91A5 /* EmbeddedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedViewController.m; sourceTree = "<group>"; };
 		427FB8498FB74AD0B5D5C197 /* libPods-EmbeddedAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB0B4726298B886FF658866 /* Pods-EmbeddedAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedAppUITests/Pods-EmbeddedAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E7FF29681CD97EB12DFB188 /* libPods-EmbeddedApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +126,8 @@
 				376E8B512156DA42002BDE0B /* ViewController.h */,
 				376E8B522156DA42002BDE0B /* ViewController.m */,
 				376E8B542156DA42002BDE0B /* Main.storyboard */,
+				3770A4BE2156DD82000A91A5 /* EmbeddedViewController.h */,
+				3770A4BF2156DD82000A91A5 /* EmbeddedViewController.m */,
 				376E8B572156DA43002BDE0B /* Assets.xcassets */,
 				376E8B592156DA43002BDE0B /* LaunchScreen.storyboard */,
 				376E8B5C2156DA43002BDE0B /* Info.plist */,
@@ -362,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3770A4C02156DD82000A91A5 /* EmbeddedViewController.m in Sources */,
 				376E8B532156DA42002BDE0B /* ViewController.m in Sources */,
 				376E8B5E2156DA43002BDE0B /* main.m in Sources */,
 				376E8B502156DA42002BDE0B /* AppDelegate.m in Sources */,
