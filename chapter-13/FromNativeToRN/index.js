@@ -7,7 +7,7 @@ import {
   NativeAppEventEmitter
 } from 'react-native';
 
-class EmbedAppComm extends Component {
+class FromNativeToRN extends Component {
   state = {
     userName: ''
   }

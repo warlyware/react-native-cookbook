@@ -21,7 +21,7 @@
                                 <rect key="frame" x="67" y="260" width="240" height="251"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="P2L-48-6bw" kind="embed" id="uam-bg-FIF"/>
+                                    <segue destination="P2L-48-6bw" kind="embed" identifier="embed" id="uam-bg-FIF"/>
                                 </connections>
                             </containerView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4c-RD-W2G">

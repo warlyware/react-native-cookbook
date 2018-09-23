@@ -50,7 +50,7 @@
     
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBridge :_bridge
-                             moduleName : @"EmbedAppComm"
+                             moduleName : @"FromNativeToRN"
                       initialProperties : props];
     
     isRNRunning = true;
