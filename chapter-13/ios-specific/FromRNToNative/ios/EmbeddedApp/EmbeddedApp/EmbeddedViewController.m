@@ -7,7 +7,6 @@
 //
 
 #import "EmbeddedViewController.h"
-#import <React/RCTBridgeModule.h>
 
 @interface EmbeddedViewController ()
 

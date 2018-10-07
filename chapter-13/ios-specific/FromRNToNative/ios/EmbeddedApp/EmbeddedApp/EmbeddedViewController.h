@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EmbeddedViewController.h
 //  EmbeddedApp
 //
 //  Created by Daniel Ward on 9/23/18.
@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (void) updateUserNameField:(NSString *)userName;
+NS_ASSUME_NONNULL_BEGIN
+
+@interface EmbeddedViewController : UIViewController
 
 @end
+
+NS_ASSUME_NONNULL_END
