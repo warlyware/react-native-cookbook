@@ -4,28 +4,34 @@ import {
   StyleSheet,
   View,
   Text,
-  NativeAppEventEmitter
+  TextInput,
+  NativeModules
 } from 'react-native';
+const UserNameManager = NativeModules.UserNameManager;
 
-class FromNativeToRN extends Component {
-  state = {
-    userName: ''
-  }
 
+class FromRNToNative extends Component {
   componentWillMount() {
     this.setState({
-      userName : this.props.userName
+      userName : ''
     });
+}
 
-    NativeAppEventEmitter.addListener('UserNameChanged', (body) => {
-        this.setState({userName : body.userName});
-    });
+  onUserNameChange = (userName) => {
+    this.setState({userName});
+    UserNameManager.setUserName(userName);
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello {this.state.userName}</Text>
+        <Text>Embedded RN App</Text>
+        <Text>Enter User Name</Text>
+        <TextInput
+          style={styles.userNameField}
+          onChangeText={this.onUserNameChange}
+          value={this.state.userName}
+        />
       </View>
     );
   }
@@ -37,7 +43,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  }
+  },
+  userNameField: {
+    backgroundColor: 'white',
+    height: 40,
+    width: 100,
+    margin: 25
+  },
 });
 
-AppRegistry.registerComponent('FromNativeToRN', () => FromNativeToRN);
+AppRegistry.registerComponent('FromRNToNative', () => FromRNToNative);

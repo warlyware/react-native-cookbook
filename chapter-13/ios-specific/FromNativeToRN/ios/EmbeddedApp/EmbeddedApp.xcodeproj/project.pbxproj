@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		372591EE21581B17001DA6DE /* EmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372591ED21581B17001DA6DE /* EmbeddedViewController.m */; };
-		3790D51A2169529A00FB05D9 /* UserNameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790D5192169529A00FB05D9 /* UserNameManager.m */; };
 		37C2BBBD2158166D00FCB24A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C2BBBC2158166D00FCB24A /* AppDelegate.m */; };
 		37C2BBC02158166D00FCB24A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C2BBBF2158166D00FCB24A /* ViewController.m */; };
 		37C2BBC32158166D00FCB24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C2BBC12158166D00FCB24A /* Main.storyboard */; };
@@ -43,8 +42,6 @@
 		1BD0DFD602CEA78108C1B0E3 /* libPods-EmbeddedAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372591EC21581B17001DA6DE /* EmbeddedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedViewController.h; sourceTree = "<group>"; };
 		372591ED21581B17001DA6DE /* EmbeddedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedViewController.m; sourceTree = "<group>"; };
-		3790D5182169529A00FB05D9 /* UserNameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserNameManager.h; sourceTree = "<group>"; };
-		3790D5192169529A00FB05D9 /* UserNameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserNameManager.m; sourceTree = "<group>"; };
 		37C2BBB82158166D00FCB24A /* EmbeddedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C2BBBB2158166D00FCB24A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37C2BBBC2158166D00FCB24A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,8 +125,6 @@
 				37C2BBBC2158166D00FCB24A /* AppDelegate.m */,
 				37C2BBBE2158166D00FCB24A /* ViewController.h */,
 				37C2BBBF2158166D00FCB24A /* ViewController.m */,
-				3790D5182169529A00FB05D9 /* UserNameManager.h */,
-				3790D5192169529A00FB05D9 /* UserNameManager.m */,
 				372591EC21581B17001DA6DE /* EmbeddedViewController.h */,
 				372591ED21581B17001DA6DE /* EmbeddedViewController.m */,
 				37C2BBC12158166D00FCB24A /* Main.storyboard */,
@@ -373,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				372591EE21581B17001DA6DE /* EmbeddedViewController.m in Sources */,
-				3790D51A2169529A00FB05D9 /* UserNameManager.m in Sources */,
 				37C2BBC02158166D00FCB24A /* ViewController.m in Sources */,
 				37C2BBCB2158166E00FCB24A /* main.m in Sources */,
 				37C2BBBD2158166D00FCB24A /* AppDelegate.m in Sources */,

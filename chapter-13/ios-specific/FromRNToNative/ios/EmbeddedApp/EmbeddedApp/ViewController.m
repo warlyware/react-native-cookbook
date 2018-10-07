@@ -16,6 +16,7 @@
     EmbeddedViewController *embeddedViewController;
     RCTBridge *_bridge;
     BOOL isRNRunning;
+    
 }
 
 @property (weak, nonatomic) IBOutlet UITextField *userNameField;
@@ -32,7 +33,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self openRNAppEmbeddedButtonPressed:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,31 +42,27 @@
 }
 
 - (IBAction)openRNAppEmbeddedButtonPressed:(id)sender {
-    NSString *userName = _userNameField.text;
-    NSDictionary *props = @{@"userName" : userName};
-    
     if(_bridge == nil) {
         _bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:nil];
     }
     
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBridge :_bridge
-                             moduleName : @"FromNativeToRN"
-                      initialProperties : props];
+                      moduleName        : @"FromNativeToRN"
+                      initialProperties : nil];
     
     isRNRunning = true;
     [embeddedViewController setView:rootView];
 }
 
-- (IBAction)onUserNameChanged:(id)sender {
-    if(isRNRunning == YES && _userNameField.text.length > 3) {
-        [_bridge.eventDispatcher sendAppEventWithName:@"UserNameChanged" body:@{@"userName" : _userNameField.text}];
-    }
-}
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"embed"]) {
         embeddedViewController = segue.destinationViewController;
     }
+}
+
+-(void) updateUserNameField:(NSString *)userName {
+    [_userNameField setText:userName];
 }
 @end
