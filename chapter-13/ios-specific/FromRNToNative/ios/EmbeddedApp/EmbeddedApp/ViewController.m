@@ -48,7 +48,7 @@
     
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBridge :_bridge
-                      moduleName        : @"FromNativeToRN"
+                      moduleName        : @"FromRNToNative"
                       initialProperties : nil];
     
     isRNRunning = true;

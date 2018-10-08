@@ -7,25 +7,20 @@ import {
   TextInput,
   NativeModules
 } from 'react-native';
-const UserNameManager = NativeModules.UserNameManager;
-
 
 class FromRNToNative extends Component {
-  componentWillMount() {
-    this.setState({
-      userName : ''
-    });
-}
+  state = {
+    userName: ''
+  }
 
   onUserNameChange = (userName) => {
     this.setState({userName});
-    UserNameManager.setUserName(userName);
+    NativeModules.UserNameManager.setUserName(userName);
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Text>Embedded RN App</Text>
         <Text>Enter User Name</Text>
         <TextInput
           style={styles.userNameField}
