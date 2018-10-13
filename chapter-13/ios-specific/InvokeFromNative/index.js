@@ -14,20 +14,24 @@ import {
 } from 'react-native';
 
 class InvokeFromNative extends Component {
+  state = {
+    status: 'App Running'
+  }
+
   componentWillMount() {
-    this.setState({
-      status: 'App Running'
-    });
     Linking.addEventListener('url', this.onAppInvoked);
   }
+
   componentWillUnmount() {
-   Linking.removeEventListener('url', this.onAppInvoked);
+    Linking.removeEventListener('url', this.onAppInvoked);
   }
+
   onAppInvoked = (event) => {
     this.setState({
-      status: `App Invoked by ${event.url}`
+      status: `App Invoked by ${ event.url }`
     });
   }
+
   render() {
     return (
       <View style={styles.container}>
