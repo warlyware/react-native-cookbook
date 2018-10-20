@@ -17,7 +17,11 @@ const instructions = Platform.select({
 
 export default class App extends Component {
   componentWillMount() {
-    HockeyApp.configure('af90c267e33947c58684b4ca76aa02e2', true);
+    let appId = Platform.select({
+      ios: YOUR_IOS_APP_ID_HERE,
+      android: YOUR_ANDROID_APP_ID_HERE
+    });
+    HockeyApp.configure(appId, true);
   }
 
   componentDidMount() {
