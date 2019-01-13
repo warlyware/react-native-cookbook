@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+
 import {
   Text,
   TouchableOpacity,
-  View,
 } from 'react-native';
 
 import {
@@ -14,18 +13,7 @@ import {
   Success
 } from './styles';
 
-const { array, string, object, bool, func, any } = PropTypes;
-
 export default class Button extends Component {
-  static propTypes = {
-    children: any,
-    danger: bool,
-    info: bool,
-    style: View.propTypes.style,
-    success: bool,
-    onPress: func,
-  };
-
   getTheme() {
     const { danger, info, success } = this.props;
 
