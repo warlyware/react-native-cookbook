@@ -8,7 +8,7 @@ const dataSouce = new ListView.DataSource({
   rowHasChanged: (r1, r2) => r1 !== r2,
 });
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     dataSource: dataSouce.cloneWithRows(data.posts),
   };

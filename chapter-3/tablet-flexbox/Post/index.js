@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   Image,
   Text,
@@ -12,7 +11,7 @@ import styles from './styles';
 const Post = ({ content, img, title }) => (
   <View style={styles.main}>
     <Image
-      source={{ uri: `https://s3.amazonaws.com/crysfel/public/book/02/01/${img}` }}
+      source={{ uri: img }}
       style={styles.image}
     />
     <View style={styles.content}>
@@ -24,12 +23,5 @@ const Post = ({ content, img, title }) => (
     </TouchableOpacity>
   </View>
 );
-
-const { string } = PropTypes;
-Post.propTypes = {
-  content: string,
-  title: string,
-  img: string,
-};
 
 export default Post;
