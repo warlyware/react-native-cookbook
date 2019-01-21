@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  StyleSheet,
   View,
   Text,
   ListView,
@@ -31,8 +30,7 @@ export default class UserList extends Component {
         <Image source={{uri: `${contact.picture.large}?key=XXXX-XXXX-XXXX-XXXX`}} style={styles.img} />
         <View style={styles.info}>
           <Text style={styles.name}>
-            {this.capitalize(contact.name.first)}
-            {this.capitalize(contact.name.last)}
+            {this.capitalize(contact.name.first)} {this.capitalize(contact.name.last)}
           </Text>
           <Text style={styles.phone}>{contact.phone}</Text>
         </View>
