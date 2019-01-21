@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   instructions: {
-    color: '#bbb',
+    color: '#828282',
     fontSize: 16,
     marginTop: 15,
     marginBottom: 10,

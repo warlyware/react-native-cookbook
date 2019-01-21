@@ -20,5 +20,6 @@
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:id="@+id/reactnativeembed"
-        android:background="#FFF"></FrameLayout>
+        android:background="#FFF"
+        android:layout_alignParentLeft="true"></FrameLayout>
 </RelativeLayout>
