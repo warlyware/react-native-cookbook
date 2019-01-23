@@ -1,7 +1,0 @@
-#Sat Apr 14 15:21:02 EDT 2018
-base.0=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_9702e3cd33fabe77442ac1327b4b54e5acbee26e
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_74c5b1edd03968370a2b8766747b485d3477a0e4/classes.dex
-base.1=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_74c5b1edd03968370a2b8766747b485d3477a0e4
-file.0=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_9702e3cd33fabe77442ac1327b4b54e5acbee26e/classes.dex

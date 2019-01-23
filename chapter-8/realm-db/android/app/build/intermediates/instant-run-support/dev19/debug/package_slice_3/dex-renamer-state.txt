@@ -1,4 +1,0 @@
-#Sat Apr 14 15:21:01 EDT 2018
-base.0=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3
-renamed.0=classes.dex
-file.0=/Users/dan/Repos/react-native-cookbook/chapter-7/realm-db/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex
