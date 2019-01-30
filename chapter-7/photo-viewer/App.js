@@ -17,7 +17,7 @@ const image4 = require('./images/04.jpg');
 
 const timeline = [
   { title: 'Enjoying the fireworks', image: image1 },
-  { title: 'Climbing the Mount Fuji', image: image2 },
+  { title: 'Climbing Mount Fuji', image: image2 },
   { title: 'Check my last picture', image:  image3 },
   { title: 'Sakuras are beautiful!', image: image4 },
 ];
