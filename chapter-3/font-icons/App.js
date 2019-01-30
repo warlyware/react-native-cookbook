@@ -15,8 +15,8 @@ export default class App extends React.Component {
         <View style={styles.iconRow}>
           <Ionicons style={styles.iconPadding} name="md-pizza" size={48} color="orange" />
           <Ionicons style={styles.iconPadding} name="md-tennisball" size={48} color="maroon" />
-          <Ionicons style={styles.iconPadding} name="ios-thunderstorm-outline" size={48} color="purple" />
-          <Ionicons style={styles.iconPadding} name="ios-happy-outline" size={48} color="#DF7977" />
+          <Ionicons style={styles.iconPadding} name="ios-thunderstorm" size={48} color="purple" />
+          <Ionicons style={styles.iconPadding} name="ios-happy" size={48} color="#DF7977" />
         </View>
       </View>
     );
