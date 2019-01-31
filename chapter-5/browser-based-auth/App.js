@@ -15,10 +15,7 @@ export default class App extends Component {
   handleSpotifyLogin = async () => {
     let redirectUrl = AuthSession.getRedirectUrl();
     let results = await AuthSession.startAsync({
-      authUrl:
-      `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}
-      &redirect_uri=${encodeURIComponent(redirectUrl)}
-      &scope=user-read-email&response_type=token`
+      authUrl: `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(redirectUrl)}&scope=user-read-email&response_type=token`
     });
     if (results.type !== 'success') {
       console.log(results.type);
