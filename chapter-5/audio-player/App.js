@@ -5,8 +5,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View,
-  Dimensions
+  View
 } from 'react-native';
 
 const playlist = [
@@ -40,11 +39,13 @@ export default class App extends Component {
   }
 
 	async componentDidMount() {
-		await Audio.setAudioModeAsync({
-			interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
-			playsInSilentModeIOS: true,
-			shouldDuckAndroid: true,
-			interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
+    await Audio.setAudioModeAsync({
+      allowsRecordingIOS: false,
+      playThroughEarpieceAndroid: true,
+      interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
+      playsInSilentModeIOS: true,
+      shouldDuckAndroid: true,
+      interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
     });
     this.loadAudio();
   }
@@ -61,7 +62,7 @@ export default class App extends Component {
     let { playbackInstance, currentTrackIndex } = this.state;
     if (playbackInstance) {
       await playbackInstance.unloadAsync();
-      currentTrackIndex < playlist.length - 1 ? currentTrackIndex += 1 : currentTrackIndex = 0;
+      currentTrackIndex === 0 ? currentTrackIndex = playlist.length - 1 : currentTrackIndex -= 1;
       this.setState({
         currentTrackIndex
       });
