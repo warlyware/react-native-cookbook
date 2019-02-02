@@ -97,7 +97,10 @@ export default class App extends Component {
 			shouldPlay: this.state.isPlaying,
 			volume: this.state.volume,
     };
-    playbackInstance.setOnPlaybackStatusUpdate(this.onPlaybackStatusUpdate);
+    playbackInstance
+      .setOnPlaybackStatusUpdate(
+        this.onPlaybackStatusUpdate
+      );
     await playbackInstance.loadAsync(source, status, false);
     this.setState({
       playbackInstance
