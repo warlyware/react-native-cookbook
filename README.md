@@ -56,18 +56,12 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products
 * Hands-On Design Patterns with React Native [[Packt]](https://www.packtpub.com/application-development/hands-design-patterns-react-native?utm_source=github&utm_medium=repository&utm_campaign=9781788994460 ) [[Amazon]](https://www.amazon.com/dp/1788994469)
 
-*  [[Packt]](https://www.packtpub.com/application-development/react-and-react-native-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789346797)
+* React and React Native [[Packt]](https://www.packtpub.com/application-development/react-and-react-native-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1789346797)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Dan Ward**
 Dan Ward is a full-stack developer and web technology consultant who has a number of years of experience working on mobile applications with React Native, and developing web applications with React, Vue, and Angular. He's also a co-founder at gitconnected, and co-editor at the associated Medium publication. His professional interests include React Native development, modern web development, and technical writing. He also has a BA in English Literature from Florida State University.
-
-
-
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
