@@ -35,11 +35,10 @@ export default class App extends React.Component {
   }
 ```
 
-**Following is what you need for this book:**
 If you're a JavaScript developer looking for a practical guide with step-by-step tutorials for developing feature rich mobile apps using React Native, then this book is for you. Though not required, some experience working with React will help you more easily understand the React Native concepts covered in this book.
+
 While React Native development can be done on a Windows machine, certain aspects, such as running your apps on iOS devices and in the iOS simulator, or editing native code with Xcode, can only be done with a Mac.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
