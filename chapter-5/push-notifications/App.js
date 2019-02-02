@@ -4,7 +4,6 @@ import {
   Text,
   View,
   TextInput,
-  Modal,
   TouchableOpacity
 } from 'react-native';
 import { Permissions, Notifications } from 'expo';
