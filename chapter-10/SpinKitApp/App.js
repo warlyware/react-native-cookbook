@@ -6,10 +6,9 @@ import {
   Text
 } from 'react-native';
 import Spinner from 'react-native-spinkit';
-import randomColor from 'randomcolor';
+import randomColor from 'randomcolor'
 
 const types = [
-  'Plane',
   'Bounce',
   'Wave',
   'WanderingCubes',
@@ -29,11 +28,10 @@ const types = [
 export default class App extends Component {
   state = {
     isVisible: true,
-    type: types[0],
     typeIndex: 0,
+    type: types[0],
     color: randomColor()
   }
-
   changeSpinner = () => {
     const { typeIndex } = this.state;
     let nextType = typeIndex === types.length - 1 ? 0 : typeIndex + 1;
