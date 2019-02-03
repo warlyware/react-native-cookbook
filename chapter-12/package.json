@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-native-button": "^2.3.0",
+    "react-native-touch-id": "^4.3.0"
+  }
+}

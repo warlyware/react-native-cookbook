@@ -20,13 +20,13 @@ export default class App extends Component {
 
   handleAuthSuccess = () => {
     this.setState({
-      authStatus : 'Authenticated'
+      authStatus: 'Authenticated'
     });
   }
 
   handleAuthFailure = () => {
     this.setState({
-      authStatus : 'Not Authenticated'
+      authStatus: 'Not Authenticated'
     });
   }
 
@@ -37,7 +37,7 @@ export default class App extends Component {
           containerStyle={styles.buttonContainer}
           style={styles.button}
           onPress={this.authenticate}>
-            Authenticate
+          Authenticate
         </Button>
         <Text style={styles.label}>Authentication Status</Text>
         <Text style={styles.welcome}>{this.state.authStatus}</Text>
