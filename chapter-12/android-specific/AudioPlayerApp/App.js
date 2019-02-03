@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -24,6 +23,10 @@ export default class AudioPlayer extends Component {
       songPlaying : undefined
     });
     this.subscription = DeviceEventEmitter.addListener('SongPlaying', this.onSongPlaying);
+  }
+
+  componentDidMount() {
+    console.log('!!!!!',MediaManager)
   }
 
   componentWillUnmount() {
@@ -49,7 +52,7 @@ export default class AudioPlayer extends Component {
           onPress={this.onShowSongsPress}>
             Pick Song
         </Button>
-
+        <Text>!{MediaManager}</Text>
         <Text style={styles.instructions}>Song Playing:</Text>
         <Text style={styles.welcome}>{this.state.songPlaying}</Text>
       </View>
