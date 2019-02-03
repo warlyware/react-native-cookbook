@@ -4172,6 +4172,7 @@ react-is@^16.3.1:
 react-native-spinkit@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/react-native-spinkit/-/react-native-spinkit-1.1.1.tgz#3ae512f3978bc750b7c02639911e1710750d8539"
+  integrity sha1-OuUS85eLx1C3wCY5kR4XEHUNhTk=
   dependencies:
     prop-types "^15.5.8"
 
