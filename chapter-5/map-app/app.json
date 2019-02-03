@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "google-maps",
+    "name": "map-app",
     "description": "This project is really great.",
-    "slug": "google-maps",
+    "slug": "map-app",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": ["ios", "android"],
