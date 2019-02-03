@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  Image,
-  Text
 } from 'react-native';
 import { TabViewAnimated, TabBar, SceneMap } from 'react-native-tab-view';
 
