@@ -10,7 +10,7 @@ export default class App extends Component {
   previousAppState = null;
   currentAppState = 'active';
   state = {
-    statusMessage = 'Welcome!'
+    statusMessage: 'Welcome!'
   }
 
   componentWillMount() {
@@ -40,7 +40,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          {this.state.appStatus}
+          {this.state.statusMessage}
         </Text>
       </View>
     );
